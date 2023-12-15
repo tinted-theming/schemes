@@ -1,3 +1,4 @@
+system: "base16"
 name: "Railscasts"
 author: "Ryan Bates (http://railscasts.com)"
 palette:

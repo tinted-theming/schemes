@@ -1,3 +1,4 @@
+system: "base16"
 name: "PhD"
 author: "Hennig Hasemann (http://leetless.de/vim.html)"
 palette:

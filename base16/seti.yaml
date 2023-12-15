@@ -1,4 +1,5 @@
 # Base16 Builder scheme by #!
+system: "base16"
 name: "Seti UI"
 slug: "seti"
 author: ""

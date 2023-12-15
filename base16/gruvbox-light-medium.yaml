@@ -1,3 +1,4 @@
+system: "base16"
 name: "Gruvbox light, medium"
 author: "Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)"
 palette:

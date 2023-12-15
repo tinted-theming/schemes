@@ -1,3 +1,4 @@
+system: "base16"
 name: "selenized-white"
 author: "Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali"
 palette:

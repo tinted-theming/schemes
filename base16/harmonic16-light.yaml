@@ -1,4 +1,5 @@
 # generated with harmonic16 (https://github.com/janniks/harmonic16)
+system: "base16"
 name: "Harmonic16 Light"
 author: "Jannik Siebert (https://github.com/janniks)"
 palette:

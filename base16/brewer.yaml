@@ -1,4 +1,5 @@
 # Color brewer scheme for the Base16 Builder (https://github.com/chriskempson/base16-builder)
+system: "base16"
 name: "Brewer"
 author: "Timothée Poisot (http://github.com/tpoisot)"
 palette:

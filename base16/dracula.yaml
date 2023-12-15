@@ -1,3 +1,4 @@
+system: "base16"
 name: "Dracula"
 author: "Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)"
 palette:

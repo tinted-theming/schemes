@@ -1,3 +1,4 @@
+system: "base16"
 name: "tender"
 author: "Jacobo Tabernero (https://github/com/jacoborus/tender.vim)"
 palette:

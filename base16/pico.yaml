@@ -1,3 +1,4 @@
+system: "base16"
 name: "Pico"
 author: "PICO-8 (http://www.lexaloffle.com/pico-8.php)"
 palette:

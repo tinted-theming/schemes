@@ -1,4 +1,5 @@
 # Base16 Builder scheme by Jan T. Sott
+system: "base16"
 name: "Bespin"
 author: "Jan T. Sott"
 palette:
