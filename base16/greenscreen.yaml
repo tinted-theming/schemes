@@ -1,4 +1,5 @@
 name: "Green Screen"
+slug: "greenscreen"
 author: "Chris Kempson (http://chriskempson.com)"
 palette:
   base00: "001100"

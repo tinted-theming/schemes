@@ -1,4 +1,5 @@
 name: "IR Black"
+slug: "irblack"
 author: "Timothée Poisot (http://timotheepoisot.fr)"
 palette:
   base00: "000000"

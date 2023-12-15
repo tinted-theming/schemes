@@ -1,4 +1,5 @@
 name: "Dark Violet"
+slug: "darkviolet"
 author: "ruler501 (https://github.com/ruler501/base16-darkviolet)"
 palette:
   base00: "000000" #000000 ----

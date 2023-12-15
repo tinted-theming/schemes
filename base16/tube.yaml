@@ -1,5 +1,6 @@
 # Base16 Builder scheme by Jan T. Sott
 name: "London Tube"
+slug: "tube"
 author: "Jan T. Sott"
 palette:
   base00: "231f20" # ----

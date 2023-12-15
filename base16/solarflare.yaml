@@ -1,4 +1,5 @@
 name: "Solar Flare"
+slug: "solarflare"
 author: "Chuck Harmston (https://chuck.harmston.ch)"
 palette:
   base00: "18262F"

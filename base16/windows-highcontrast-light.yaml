@@ -1,4 +1,5 @@
 name: "Windows High Contrast Light"
+slug: "windows-highcontrast-light"
 author: "Fergus Collins (https://github.com/C-Fergus)"
 palette:
   base00: "fcfcfc" # bright white

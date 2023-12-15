@@ -1,4 +1,5 @@
 name: "Windows High Contrast"
+slug: "windows-highcontrast"
 author: "Fergus Collins (https://github.com/C-Fergus)"
 palette:
   base00: "000000" # black

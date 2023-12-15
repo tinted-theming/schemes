@@ -1,4 +1,5 @@
 name: "Solar Flare Light"
+slug: "solarflare-light"
 author: "Chuck Harmston (https://chuck.harmston.ch)"
 palette:
   base00: "F5F7FA"

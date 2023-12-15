@@ -1,5 +1,6 @@
 # Base16 Builder scheme by #!
 name: "Seti UI"
+slug: "seti"
 author: ""
 palette:
   base00: "151718"
