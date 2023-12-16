@@ -16,6 +16,7 @@ These are the original locations all schemes were imported from.
 * [Blueish](https://github.com/TheMayoras/base16-blueish-scheme) maintained by [TheMayoras](https://github.com/TheMayoras)
 * [Brogrammer](https://github.com/piggyslasher/base16-brogrammer-scheme) maintained by [piggyslasher](https://github.com/piggyslasher)
 * [Brush Trees](https://github.com/whiteabelincoln/base16-brushtrees-scheme) maintained by [whiteabelincoln](https://github.com/whiteabelincoln)
+* [Catppuccin](https://github.com/catppuccin/base16) maintained by the [catppuccin team](https://github.com/catppuccin)
 * [Circus](https://github.com/stepchowfun/base16-circus-scheme) maintained by [stepchowfun](https://github.com/stepchowfun) and [ewang12](https://github.com/ewang12)
 * [Classic](https://github.com/detly/base16-classic-scheme) maintained by [detly](https://github.com/detly)
 * [Codeschool](https://github.com/blockloop/base16-codeschool-scheme) maintained by [blockloop](https://github.com/blockloop)
