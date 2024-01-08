@@ -1,6 +1,7 @@
 system: "base16"
 name: "Google Dark"
 author: "Seth Wright (http://sethawright.com)"
+variant: "dark"
 palette:
   base00: "1d1f21"
   base01: "282a2e"

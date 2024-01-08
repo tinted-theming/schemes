@@ -1,6 +1,7 @@
 system: "base16"
 name: "Apprentice"
 author: "romainl"
+variant: "dark"
 palette:
   base00: "262626"
   base01: "AF5F5F"

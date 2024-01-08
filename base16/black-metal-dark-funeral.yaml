@@ -1,6 +1,7 @@
 system: "base16"
 name: "Black Metal (Dark Funeral)"
 author: "metalelf0 (https://github.com/metalelf0)"
+variant: "dark"
 palette:
   base00: "000000"
   base01: "121212"

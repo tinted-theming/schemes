@@ -1,6 +1,7 @@
 system: "base16"
 name: "Summerfruit Dark"
 author: "Christopher Corley (http://christop.club/)"
+variant: "dark"
 palette:
   base00: "151515"
   base01: "202020"

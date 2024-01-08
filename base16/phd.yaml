@@ -1,6 +1,7 @@
 system: "base16"
 name: "PhD"
 author: "Hennig Hasemann (http://leetless.de/vim.html)"
+variant: "dark"
 palette:
   base00: "061229"
   base01: "2a3448"

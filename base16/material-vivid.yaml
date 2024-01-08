@@ -1,6 +1,7 @@
 system: "base16"
 name: "Material Vivid"
 author: "joshyrobot"
+variant: "dark"
 palette:
   base00: "202124"
   base01: "27292c"

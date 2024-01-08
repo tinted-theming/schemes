@@ -1,6 +1,7 @@
 system: "base16"
 name: "Material Lighter"
 author: "Nate Peterson"
+variant: "light"
 palette:
   base00: "FAFAFA"
   base01: "E7EAEC"

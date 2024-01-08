@@ -1,6 +1,7 @@
 system: "base16"
 name: "Nova"
 author: "George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)"
+variant: "dark"
 palette:
   base00: "3C4C55"
   base01: "556873"

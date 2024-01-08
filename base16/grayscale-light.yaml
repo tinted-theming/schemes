@@ -1,6 +1,7 @@
 system: "base16"
 name: "Grayscale Light"
 author: "Alexandre Gavioli (https://github.com/Alexx2/)"
+variant: "light"
 palette:
   base00: "f7f7f7"
   base01: "e3e3e3"

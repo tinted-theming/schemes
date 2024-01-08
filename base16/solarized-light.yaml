@@ -1,6 +1,7 @@
 system: "base16"
 name: "Solarized Light"
 author: "Ethan Schoonover (modified by aramisgithub)"
+variant: "light"
 palette:
   base00: "fdf6e3"
   base01: "eee8d5"

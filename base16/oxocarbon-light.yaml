@@ -1,6 +1,7 @@
 system: "base16"
 name: "Oxocarbon Light"
 author: "shaunsingh/IBM"
+variant: "light"
 palette:
   base00: "f2f4f8"
   base01: "dde1e6"

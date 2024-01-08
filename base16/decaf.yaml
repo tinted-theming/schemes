@@ -1,6 +1,7 @@
 system: "base16"
 name: "Decaf"
 author: "Alex Mirrington (https://github.com/alexmirrington)"
+variant: "dark"
 palette:
   base00: "2d2d2d"
   base01: "393939"

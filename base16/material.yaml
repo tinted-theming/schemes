@@ -1,6 +1,7 @@
 system: "base16"
 name: "Material"
 author: "Nate Peterson"
+variant: "dark"
 palette:
   base00: "263238"
   base01: "2E3C43"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Summerfruit Light"
 author: "Christopher Corley (http://christop.club/)"
+variant: "light"
 palette:
   base00: "FFFFFF"
   base01: "E0E0E0"

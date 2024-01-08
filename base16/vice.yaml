@@ -1,6 +1,7 @@
 system: "base16"
 name: "vice"
 author: "Thomas Leon Highbaugh thighbaugh@zoho.com"
+variant: "dark"
 palette:
   base00: "17191E"
   base01: "22262d"

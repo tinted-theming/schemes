@@ -1,6 +1,7 @@
 system: "base16"
 name: "Eva"
 author: "kjakapat (https://github.com/kjakapat)"
+variant: "dark"
 palette:
   base00: "2a3b4d"  # default background
   base01: "3d566f"

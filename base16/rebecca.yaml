@@ -1,6 +1,7 @@
 system: "base16"
 name: "Rebecca"
 author: "Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)"
+variant: "dark"
 palette:
   base00: "292a44" # default background
   base01: "663399" # lighter background (status bar)

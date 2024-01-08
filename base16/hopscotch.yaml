@@ -2,6 +2,7 @@
 system: "base16"
 name: "Hopscotch"
 author: "Jan T. Sott"
+variant: "dark"
 palette:
   base00: "322931" # ----
   base01: "433b42" # ---

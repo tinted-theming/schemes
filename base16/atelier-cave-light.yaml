@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Cave Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "efecf4"
   base01: "e2dfe7"

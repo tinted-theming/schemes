@@ -1,6 +1,7 @@
 system: "base16"
 name: "eris"
 author: "ed (https://codeberg.org/ed)"
+variant: "dark"
 palette:
   base00: "0a0920"
   base01: "13133a"

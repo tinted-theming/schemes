@@ -1,6 +1,7 @@
 system: "base16"
 name: "Edge Dark"
 author: "cjayross (https://github.com/cjayross)"
+variant: "dark"
 palette:
   base00: "262729"
   base01: "88909f"

@@ -2,6 +2,7 @@ system: "base16"
 name: "Heetch Dark"
 slug: "heetch"
 author: "Geoffrey Teale (tealeg@gmail.com)"
+variant: "dark"
 palette:
   base00: "190134"
   base01: "392551"

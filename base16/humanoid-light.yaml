@@ -1,6 +1,7 @@
 system: "base16"
 name: "Humanoid light"
 author: "Thomas (tasmo) Friese"
+variant: "light"
 palette:
   base00: "f8f8f2" # #f8f8f2 ----
   base01: "efefe9" # #efefe9 ---

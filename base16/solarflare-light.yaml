@@ -2,6 +2,7 @@ system: "base16"
 name: "Solar Flare Light"
 slug: "solarflare-light"
 author: "Chuck Harmston (https://chuck.harmston.ch)"
+variant: "light"
 palette:
   base00: "F5F7FA"
   base01: "E8E9ED"

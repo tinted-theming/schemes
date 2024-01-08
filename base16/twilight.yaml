@@ -1,6 +1,7 @@
 system: "base16"
 name: "Twilight"
 author: "David Hart (https://github.com/hartbit)"
+variant: "dark"
 palette:
   base00: "1e1e1e"
   base01: "323537"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Heetch Light"
 author: "Geoffrey Teale (tealeg@gmail.com)"
+variant: "light"
 palette:
   base00: "feffff"
   base01: "392551"

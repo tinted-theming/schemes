@@ -1,6 +1,7 @@
 system: "base16"
 name: "Hardcore"
 author: "Chris Caller"
+variant: "dark"
 palette:
   base00: "212121" # ----
   base01: "303030" # ---

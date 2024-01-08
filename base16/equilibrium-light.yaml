@@ -1,6 +1,7 @@
 system: "base16"
 name: "Equilibrium Light"
 author: "Carlo Abelli"
+variant: "light"
 palette:
   base00: "f5f0e7"
   base01: "e7e2d9"

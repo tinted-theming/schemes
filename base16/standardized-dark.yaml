@@ -1,6 +1,7 @@
 system: "base16"
 name: "standardized-dark"
 author: "ali (https://github.com/ali-githb/base16-standardized-scheme)"
+variant: "dark"
 palette:
   base00: "222222"
   base01: "303030"

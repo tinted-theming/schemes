@@ -1,6 +1,7 @@
 system: "base16"
 name: "ShadeSmear Dark"
 author: "Kyle Giammarco (http://kyle.giammar.co)"
+variant: "dark"
 palette:
   base00: "232323"
   base01: "1C1C1C"

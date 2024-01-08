@@ -1,6 +1,7 @@
 system: "base16"
 name: "Stella"
 author: "Shrimpram"
+variant: "dark"
 palette:
   base00: "2B213C"
   base01: "362B48"

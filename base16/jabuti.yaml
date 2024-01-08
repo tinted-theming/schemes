@@ -1,6 +1,7 @@
 system: "base16"
 name: "Jabuti"
 author: "https://github.com/notusknot"
+variant: "dark"
 palette:
   base00: "292A37"
   base01: "343545"

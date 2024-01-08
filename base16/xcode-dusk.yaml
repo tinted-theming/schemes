@@ -1,6 +1,7 @@
 system: "base16"
 name: "XCode Dusk"
 author: "Elsa Gonsiorowski (https://github.com/gonsie)"
+variant: "dark"
 palette:
   base00: "282B35"
   base01: "3D4048"

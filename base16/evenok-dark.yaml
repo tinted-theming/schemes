@@ -1,6 +1,7 @@
 system: "base16"
 name: "Evenok Dark"
 author: "Mekeor Melire"
+variant: "dark"
 palette:
   base00: "000000"
   base01: "202020"

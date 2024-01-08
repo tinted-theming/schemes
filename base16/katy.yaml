@@ -1,6 +1,7 @@
 system: "base16"
 name: "Katy"
 author: "George Essig (https://github.com/gessig)"
+variant: "dark"
 palette:
   base00: "292d3e"
   base01: "444267"

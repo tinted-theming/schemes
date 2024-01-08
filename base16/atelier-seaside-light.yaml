@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Seaside Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "f4fbf4"
   base01: "cfe8cf"

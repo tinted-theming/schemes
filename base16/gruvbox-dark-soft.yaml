@@ -1,6 +1,7 @@
 system: "base16"
 name: "Gruvbox dark, soft"
 author: "Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)"
+variant: "dark"
 palette:
   base00: "32302f" # ----
   base01: "3c3836" # ---

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Edge Light"
 author: "cjayross (https://github.com/cjayross)"
+variant: "light"
 palette:
   base00: "fafafa"
   base01: "7c9f4b"

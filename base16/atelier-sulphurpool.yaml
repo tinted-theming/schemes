@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Sulphurpool"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "202746"
   base01: "293256"

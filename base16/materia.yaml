@@ -1,6 +1,7 @@
 system: "base16"
 name: "Materia"
 author: "Defman21"
+variant: "dark"
 palette:
   base00: "263238"
   base01: "2C393F"

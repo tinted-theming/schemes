@@ -1,6 +1,7 @@
 system: "base16"
 name: "summercamp"
 author: "zoe firi (zoefiri.github.io)"
+variant: "dark"
 palette:
   base00: "1c1810"
   base01: "2a261c"

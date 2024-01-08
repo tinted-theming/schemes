@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Cave"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "19171c"
   base01: "26232a"

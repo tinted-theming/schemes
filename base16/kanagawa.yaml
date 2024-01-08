@@ -1,6 +1,7 @@
 system: "base16"
 name: "Kanagawa"
 author: "Tommaso Laurenzi (https://github.com/rebelot)"
+variant: "dark"
 palette:
   base00: "1F1F28"
   base01: "16161D"

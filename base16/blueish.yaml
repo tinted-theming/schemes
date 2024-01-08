@@ -1,6 +1,7 @@
 system: "base16"
 name: "Blueish"
 author: "Ben Mayoras"
+variant: "dark"
 palette:
   base00: "182430"
   base01: "243C54"

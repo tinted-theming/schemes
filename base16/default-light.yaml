@@ -1,6 +1,7 @@
 system: "base16"
 name: "Default Light"
 author: "Chris Kempson (http://chriskempson.com)"
+variant: "light"
 palette:
   base00: "f8f8f8"
   base01: "e8e8e8"

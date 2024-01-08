@@ -1,6 +1,7 @@
 system: "base16"
 name: "Outrun Dark"
 author: "Hugo Delahousse (http://github.com/hugodelahousse/)"
+variant: "dark"
 palette:
   base00: "00002A"
   base01: "20204A"

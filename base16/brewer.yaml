@@ -2,6 +2,7 @@
 system: "base16"
 name: "Brewer"
 author: "Timothée Poisot (http://github.com/tpoisot)"
+variant: "dark"
 palette:
   base00: "0c0d0e" #  ----
   base01: "2e2f30" #  ---

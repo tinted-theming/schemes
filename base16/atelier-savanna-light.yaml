@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Savanna Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "ecf4ee"
   base01: "dfe7e2"

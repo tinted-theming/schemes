@@ -2,6 +2,7 @@ system: "base16"
 name: "Icy Dark"
 slug: "icy"
 author: "icyphox (https://icyphox.ga)"
+variant: "light"
 palette:
   base00: "021012"
   base01: "031619"

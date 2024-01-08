@@ -1,6 +1,7 @@
 system: "base16"
 name: "tarot"
 author: "ed (https://codeberg.org/ed)"
+variant: "dark"
 palette:
   base00: "0e091d"
   base01: "2a153c"

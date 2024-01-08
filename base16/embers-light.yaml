@@ -1,6 +1,7 @@
 system: "base16"
 name: "Embers Light"
 author: "Jannik Siebert (https://github.com/janniks)"
+variant: "light"
 palette:
   base00: "d1d6db"
   base01: "aeb6be"

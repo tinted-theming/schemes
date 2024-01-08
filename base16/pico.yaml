@@ -1,6 +1,7 @@
 system: "base16"
 name: "Pico"
 author: "PICO-8 (http://www.lexaloffle.com/pico-8.php)"
+variant: "dark"
 palette:
   base00: "000000"
   base01: "1d2b53"

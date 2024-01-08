@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tokyo City Terminal Light"
 author: "Michaël Ball"
+variant: "light"
 palette:
   base00: "FBFBFD"
   base01: "F6F6F8"

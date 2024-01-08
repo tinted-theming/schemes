@@ -1,6 +1,7 @@
 system: "base16"
 name: "Mellow Purple"
 author: "gidsi"
+variant: "dark"
 palette:
   base00: "1e0528"
   base01: "1A092D"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Woodland"
 author: "Jay Cornwall (https://jcornwall.com)"
+variant: "dark"
 palette:
   base00: "231e18"
   base01: "302b25"

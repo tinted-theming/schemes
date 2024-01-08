@@ -1,6 +1,7 @@
 system: "base16"
 name: "Da One Gray"
 author: "NNB (https://github.com/NNBnh)"
+variant: "dark"
 palette:
   base00: "181818"
   base01: "282828"

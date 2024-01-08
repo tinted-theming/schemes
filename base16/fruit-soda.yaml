@@ -1,6 +1,7 @@
 system: "base16"
 name: "Fruit Soda"
 author: "jozip"
+variant: "light"
 palette:
   base00: "f1ecf1"
   base01: "e0dee0"

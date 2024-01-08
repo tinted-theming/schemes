@@ -1,6 +1,7 @@
 system: "base16"
 name: "Framer"
 author: "Framer (Maintained by Jesse Hoyos)"
+variant: "dark"
 palette:
   base00: "181818" # black
   base01: "151515" # ----

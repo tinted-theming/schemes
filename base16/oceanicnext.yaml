@@ -1,6 +1,7 @@
 system: "base16"
 name: "OceanicNext"
 author: "https://github.com/voronianski/oceanic-next-color-scheme"
+variant: "dark"
 palette:
   base00: "1B2B34"
   base01: "343D46"

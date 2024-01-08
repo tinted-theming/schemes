@@ -1,6 +1,7 @@
 system: "base16"
 name: "Gruvbox Material Light, Medium"
 author: "Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)"
+variant: "light"
 palette:
   base00: "fbf1c7"
   base01: "f2e5bc"

@@ -2,6 +2,7 @@ system: "base16"
 name: "Windows High Contrast Light"
 slug: "windows-highcontrast-light"
 author: "Fergus Collins (https://github.com/C-Fergus)"
+variant: "light"
 palette:
   base00: "fcfcfc" # bright white
   base01: "e8e8e8" # brightish white

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Da One Sea"
 author: "NNB (https://github.com/NNBnh)"
+variant: "dark"
 palette:
   base00: "22273d"
   base01: "374059"

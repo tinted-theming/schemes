@@ -1,6 +1,7 @@
 system: "base16"
 name: "Sagelight"
 author: "Carter Veldhuizen"
+variant: "light"
 palette:
   base00: "f8f8f8"
   base01: "e8e8e8"

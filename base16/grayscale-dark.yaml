@@ -1,6 +1,7 @@
 system: "base16"
 name: "Grayscale Dark"
 author: "Alexandre Gavioli (https://github.com/Alexx2/)"
+variant: "dark"
 palette:
   base00: "101010"
   base01: "252525"

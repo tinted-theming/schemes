@@ -1,6 +1,7 @@
 system: "base16"
 name: "Default Dark"
 author: "Chris Kempson (http://chriskempson.com)"
+variant: "dark"
 palette:
   base00: "181818"
   base01: "282828"

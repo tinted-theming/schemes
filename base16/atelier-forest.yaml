@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Forest"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "1b1918"
   base01: "2c2421"

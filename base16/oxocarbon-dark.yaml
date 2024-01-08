@@ -1,6 +1,7 @@
 system: "base16"
 name: "Oxocarbon Dark"
 author: "shaunsingh/IBM"
+variant: "dark"
 palette:
   base00: "161616"
   base01: "262626"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Catppuccin Latte"
 author: "https://github.com/catppuccin/catppuccin"
+variant: "light"
 palette:
   base00: "eff1f5" # base
   base01: "e6e9ef" # mantle

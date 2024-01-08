@@ -1,6 +1,7 @@
 system: "base16"
 name: "Mountain"
 author: "gnsfujiwara (https://github.com/gnsfujiwara)"
+variant: "dark"
 palette:
   base00: "0f0f0f"
   base01: "191919"

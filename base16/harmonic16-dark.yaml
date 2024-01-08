@@ -2,6 +2,7 @@
 system: "base16"
 name: "Harmonic16 Dark"
 author: "Jannik Siebert (https://github.com/janniks)"
+variant: "dark"
 palette:
   base00: "0b1c2c"
   base01: "223b54"

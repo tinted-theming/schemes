@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Sulphurpool Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "f5f7ff"
   base01: "dfe2f1"

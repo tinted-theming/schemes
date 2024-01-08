@@ -1,6 +1,7 @@
 system: "base16"
 name: "Spacemacs"
 author: "Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)"
+variant: "dark"
 palette:
   base00: "1f2022" # ----
   base01: "282828" # ---

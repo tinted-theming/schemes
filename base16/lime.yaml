@@ -1,6 +1,7 @@
 system: "base16"
 name: "lime"
 author: "limelier"
+variant: "dark"
 palette:
   base00: "1a1a2f"
   base01: "202030"

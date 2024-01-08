@@ -1,6 +1,7 @@
 system: "base16"
 name: "ShadeSmear Light"
 author: "Kyle Giammarco (http://kyle.giammar.co)"
+variant: "light"
 palette:
   base00: "DBDBDB"
   base01: "E4E4E4"

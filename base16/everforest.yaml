@@ -1,6 +1,7 @@
 system: "base16"
 name: "Everforest"
 author: "Sainnhe Park (https://github.com/sainnhe)"
+variant: "dark"
 palette:
   base00: "2f383e" # bg0,       palette1 dark (medium)
   base01: "374247" # bg1,       palette1 dark (medium)

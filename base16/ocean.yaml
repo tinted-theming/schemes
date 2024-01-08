@@ -1,6 +1,7 @@
 system: "base16"
 name: "Ocean"
 author: "Chris Kempson (http://chriskempson.com)"
+variant: "dark"
 palette:
   base00: "2b303b"
   base01: "343d46"

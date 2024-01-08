@@ -1,6 +1,7 @@
 system: "base16"
 name: "Catppuccin Frappe"
 author: "https://github.com/catppuccin/catppuccin"
+variant: "dark"
 palette:
   base00: "303446" # base
   base01: "292c3c" # mantle

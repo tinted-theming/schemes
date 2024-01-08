@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Estuary Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "f4f3ec"
   base01: "e7e6df"

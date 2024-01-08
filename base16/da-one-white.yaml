@@ -1,6 +1,7 @@
 system: "base16"
 name: "Da One White"
 author: "NNB (https://github.com/NNBnh)"
+variant: "light"
 palette:
   base00: "ffffff"
   base01: "c8c8c8"

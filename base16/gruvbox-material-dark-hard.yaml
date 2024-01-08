@@ -1,6 +1,7 @@
 system: "base16"
 name: "Gruvbox Material Dark, Hard"
 author: "Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)"
+variant: "dark"
 palette:
   base00: "202020"
   base01: "2a2827"

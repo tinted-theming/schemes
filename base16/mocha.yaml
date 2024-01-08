@@ -1,6 +1,7 @@
 system: "base16"
 name: "Mocha"
 author: "Chris Kempson (http://chriskempson.com)"
+variant: "dark"
 palette:
   base00: "3B3228"
   base01: "534636"

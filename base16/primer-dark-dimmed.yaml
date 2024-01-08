@@ -1,6 +1,7 @@
 system: "base16"
 name: "Primer Dark Dimmed"
 author: "Jimmy Lin"
+variant: "dark"
 palette:
   base00: "1c2128"
   base01: "373e47"

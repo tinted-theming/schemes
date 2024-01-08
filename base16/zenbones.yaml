@@ -1,6 +1,7 @@
 system: "base16"
 name: "Zenbones"
 author: "mcchrish"
+variant: "dark"
 palette:
   base00: "191919"
   base01: "DE6E7C"

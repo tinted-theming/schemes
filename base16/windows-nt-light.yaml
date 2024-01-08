@@ -1,6 +1,7 @@
 system: "base16"
 name: "Windows NT Light"
 author: "Fergus Collins (https://github.com/C-Fergus)"
+variant: "light"
 palette:
   base00: "ffffff" # bright white
   base01: "eaeaea" # brightish white

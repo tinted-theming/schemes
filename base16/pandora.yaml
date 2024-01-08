@@ -1,6 +1,7 @@
 system: "base16"
 name: "pandora"
 author: "Cassandra Fox"
+variant: "dark"
 palette:
   base00: "131213"
   base01: "2f1823"

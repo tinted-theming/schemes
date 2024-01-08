@@ -1,6 +1,7 @@
 system: "base16"
 name: "Still Alive"
 author: "Derrick McKee (derrick.mckee@gmail.com)"
+variant: "light"
 palette:
   base00: "F0F0F0"
   base01: "F0D848"
