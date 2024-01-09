@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tokyo Night Terminal Dark"
 author: "Michaël Ball"
+variant: "dark"
 palette:
   base00: "16161E"
   base01: "1A1B26"

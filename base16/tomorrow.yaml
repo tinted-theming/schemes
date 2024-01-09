@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tomorrow"
 author: "Chris Kempson (http://chriskempson.com)"
+variant: "light"
 palette:
   base00: "ffffff"
   base01: "e0e0e0"

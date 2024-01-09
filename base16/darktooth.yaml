@@ -1,6 +1,7 @@
 system: "base16"
 name: "Darktooth"
 author: "Jason Milkins (https://github.com/jasonm23)"
+variant: "dark"
 palette:
   base00: "1D2021"
   base01: "32302F"

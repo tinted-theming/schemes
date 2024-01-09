@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tango"
 author: "@Schnouki, based on the Tango Desktop Project"
+variant: "dark"
 palette:
   base00: "2e3436"
   base01: "8ae234"

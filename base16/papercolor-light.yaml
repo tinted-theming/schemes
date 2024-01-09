@@ -1,6 +1,7 @@
 system: "base16"
 name: "PaperColor Light"
 author: "Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)"
+variant: "light"
 palette:
   base00: "eeeeee" # Default Background
   base01: "af0000" # Lighter Background (Used for status bars, line number and folding marks)

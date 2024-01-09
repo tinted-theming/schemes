@@ -1,6 +1,7 @@
 system: "base16"
 name: "pinky"
 author: "Benjamin (https://github.com/b3nj5m1n)"
+variant: "dark"
 palette:
   base00: "171517" # default background
   base01: "1b181b" # lighter background (status bar)

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Marrakesh"
 author: "Alexandre Gavioli (http://github.com/Alexx2/)"
+variant: "dark"
 palette:
   base00: "201602"
   base01: "302e00"

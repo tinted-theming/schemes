@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Lakeside Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "ebf8ff"
   base01: "c1e4f6"

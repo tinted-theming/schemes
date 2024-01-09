@@ -1,6 +1,7 @@
 system: "base16"
 name: "Dracula"
 author: "Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)"
+variant: "dark"
 palette:
   base00: "282936" #background
   base01: "3a3c4e"

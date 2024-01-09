@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Dune Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "fefbec"
   base01: "e8e4cf"

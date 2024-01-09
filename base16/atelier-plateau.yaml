@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Plateau"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "1b1818"
   base01: "292424"

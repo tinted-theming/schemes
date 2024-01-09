@@ -1,6 +1,7 @@
 system: "base16"
 name: "Gigavolt"
 author: "Aidan Swope (http://github.com/Whillikers)"
+variant: "dark"
 palette:
   base00: "202126"
   base01: "2d303d"

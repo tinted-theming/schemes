@@ -2,6 +2,7 @@
 system: "base16"
 name: "Shapeshifter"
 author: "Tyler Benziger (http://tybenz.com)"
+variant: "light"
 palette:
   base00: "f9f9f9" #  ----
   base01: "e0e0e0" #  ---

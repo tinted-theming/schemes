@@ -1,6 +1,7 @@
 system: "base16"
 name: "selenized-black"
 author: "Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali"
+variant: "dark"
 palette:
   base00: "181818"
   base01: "252525"

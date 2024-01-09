@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atlas"
 author: "Alex Lende (https://ajlende.com)"
+variant: "dark"
 palette:
   base00: "002635"
   base01: "00384d"

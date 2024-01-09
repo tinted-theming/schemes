@@ -1,6 +1,7 @@
 system: "base16"
 name: "Qualia"
 author: "isaacwhanson"
+variant: "dark"
 palette:
   base00: "101010"
   base01: "454545"

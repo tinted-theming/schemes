@@ -1,6 +1,7 @@
 system: "base16"
 name: "Catppuccin Macchiato"
 author: "https://github.com/catppuccin/catppuccin"
+variant: "dark"
 palette:
   base00: "24273a" # base
   base01: "1e2030" # mantle

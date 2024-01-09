@@ -1,6 +1,7 @@
 system: "base16"
 name: "vulcan"
 author: "Andrey Varfolomeev"
+variant: "dark"
 palette:
   base00: "041523"
   base01: "122339"

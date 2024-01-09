@@ -2,6 +2,7 @@
 system: "base16"
 name: "3024"
 author: "Jan T. Sott (http://github.com/idleberg)"
+variant: "dark"
 palette:
   base00: "090300" #  ----
   base01: "3a3432" #  ---

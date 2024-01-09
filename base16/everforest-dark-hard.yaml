@@ -1,6 +1,7 @@
 system: "base16"
 name: "Everforest Dark Hard"
 author: "Oskar Liew (https://github.com/OskarLiew)"
+variant: "dark"
 palette:
   base00: "272e33" # bg0,        Default background
   base01: "2e383c" # bg1,        Lighter background

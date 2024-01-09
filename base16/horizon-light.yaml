@@ -1,6 +1,7 @@
 system: "base16"
 name: "Horizon Light"
 author: "Michaël Ball (http://github.com/michael-ball/)"
+variant: "light"
 palette:
   base00: "FDF0ED"
   base01: "FADAD1"

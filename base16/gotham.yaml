@@ -1,6 +1,7 @@
 system: "base16"
 name: "Gotham"
 author: "Andrea Leopardi (arranged by Brett Jones)"
+variant: "dark"
 palette:
   base00: "0c1014"
   base01: "11151c"

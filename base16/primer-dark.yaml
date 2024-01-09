@@ -1,6 +1,7 @@
 system: "base16"
 name: "Primer Dark"
 author: "Jimmy Lin"
+variant: "dark"
 palette:
   base00: "010409"
   base01: "21262d"

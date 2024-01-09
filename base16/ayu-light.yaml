@@ -1,6 +1,7 @@
 system: "base16"
 name: "Ayu Light"
 author: "Khue Nguyen <Z5483Y@gmail.com>"
+variant: "light"
 palette:
   base00: "FAFAFA"
   base01: "F3F4F5"

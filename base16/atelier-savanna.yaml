@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Savanna"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "171c19"
   base01: "232a25"

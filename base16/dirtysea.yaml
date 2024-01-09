@@ -1,6 +1,7 @@
 system: "base16"
 name: "dirtysea"
 author: "Kahlil (Kal) Hodgson"
+variant: "light"
 
 palette:
   base00: "e0e0e0" # (light grey) Default Background

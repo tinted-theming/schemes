@@ -1,6 +1,7 @@
 system: "base16"
 name: "Railscasts"
 author: "Ryan Bates (http://railscasts.com)"
+variant: "dark"
 palette:
   base00: "2b2b2b"
   base01: "272935"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "DanQing Light"
 author: "Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)"
+variant: "light"
 palette:
   base00: "fcfefd" # ++++
   base01: "ecf6f2" # +++

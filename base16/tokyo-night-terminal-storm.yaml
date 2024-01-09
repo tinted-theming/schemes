@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tokyo Night Terminal Storm"
 author: "Michaël Ball"
+variant: "dark"
 palette:
   base00: "24283B"
   base01: "1A1B26"

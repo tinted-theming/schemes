@@ -1,6 +1,7 @@
 system: "base16"
 name: "darkmoss"
 author: "Gabriel Avanzi (https://github.com/avanzzzi)"
+variant: "dark"
 palette:
   base00: "171e1f"
   base01: "252c2d"

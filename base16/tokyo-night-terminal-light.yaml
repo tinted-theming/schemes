@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tokyo Night Terminal Light"
 author: "Michaël Ball"
+variant: "light"
 palette:
   base00: "D5D6DB"
   base01: "CBCCD1"

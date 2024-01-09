@@ -1,6 +1,7 @@
 system: "base16"
 name: "tender"
 author: "Jacobo Tabernero (https://github/com/jacoborus/tender.vim)"
+variant: "dark"
 palette:
   base00: "282828"  # color00 Black (background)
   base01: "383838"  # color18

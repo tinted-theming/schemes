@@ -1,6 +1,7 @@
 system: "base16"
 name: "Zenburn"
 author: "elnawe"
+variant: "dark"
 palette:
   base00: "383838"
   base01: "404040"

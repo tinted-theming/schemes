@@ -1,6 +1,7 @@
 system: "base16"
 name: "Equilibrium Dark"
 author: "Carlo Abelli"
+variant: "dark"
 palette:
   base00: "0c1118"
   base01: "181c22"

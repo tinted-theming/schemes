@@ -1,6 +1,7 @@
 system: "base16"
 name: "Windows NT"
 author: "Fergus Collins (https://github.com/C-Fergus)"
+variant: "dark"
 palette:
   base00: "000000" # black
   base01: "2a2a2a" # darkish black

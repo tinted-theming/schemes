@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Seaside"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "131513"
   base01: "242924"

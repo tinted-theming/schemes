@@ -2,6 +2,7 @@
 system: "base16"
 name: "Paraiso"
 author: "Jan T. Sott"
+variant: "dark"
 palette:
   base00: "2f1e2e" # ----
   base01: "41323f" # ---

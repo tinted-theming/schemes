@@ -2,6 +2,7 @@ system: "base16"
 name: "Solar Flare"
 slug: "solarflare"
 author: "Chuck Harmston (https://chuck.harmston.ch)"
+variant: "dark"
 palette:
   base00: "18262F"
   base01: "222E38"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Monokai"
 author: "Wimer Hazenberg (http://www.monokai.nl)"
+variant: "dark"
 palette:
   base00: "272822"
   base01: "383830"

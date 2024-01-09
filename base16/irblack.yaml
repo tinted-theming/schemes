@@ -2,6 +2,7 @@ system: "base16"
 name: "IR Black"
 slug: "irblack"
 author: "Timothée Poisot (http://timotheepoisot.fr)"
+variant: "dark"
 palette:
   base00: "000000"
   base01: "242422"

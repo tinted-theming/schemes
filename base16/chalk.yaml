@@ -1,6 +1,7 @@
 system: "base16"
 name: "Chalk"
 author: "Chris Kempson (http://chriskempson.com)"
+variant: "dark"
 palette:
   base00: "151515"
   base01: "202020"

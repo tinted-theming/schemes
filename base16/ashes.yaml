@@ -2,6 +2,7 @@
 system: "base16"
 name: "Ashes"
 author: "Jannik Siebert (https://github.com/janniks)"
+variant: "dark"
 palette:
   base00: "1C2023" # ----
   base01: "393F45" # ---

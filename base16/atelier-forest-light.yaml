@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Forest Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "f1efee"
   base01: "e6e2e0"

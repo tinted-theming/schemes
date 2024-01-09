@@ -1,6 +1,7 @@
 system: "base16"
 name: "Purpledream"
 author: "malet"
+variant: "dark"
 palette:
   base00: "100510"
   base01: "302030"

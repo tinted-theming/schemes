@@ -1,6 +1,7 @@
 system: "base16"
 name: "Ayu Dark"
 author: "Khue Nguyen <Z5483Y@gmail.com>"
+variant: "dark"
 palette:
   base00: "0F1419"
   base01: "131721"

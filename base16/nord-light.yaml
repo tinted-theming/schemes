@@ -1,6 +1,7 @@
 system: "base16"
 name: "Nord Light"
 author: "threddast, based on fuxialexander's doom-nord-light-theme (Doom Emacs)"
+variant: "light"
 palette:
   base00: "e5e9f0"
   base01: "c2d0e7"

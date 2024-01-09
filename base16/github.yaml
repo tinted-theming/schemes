@@ -1,6 +1,7 @@
 system: "base16"
 name: "Github"
 author: "Defman21"
+variant: "light"
 palette:
   base00: "ffffff"
   base01: "f5f5f5"

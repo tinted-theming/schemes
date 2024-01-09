@@ -1,6 +1,7 @@
 system: "base16"
 name: "Unikitty Light"
 author: "Josh W Lewis (@joshwlewis)"
+variant: "light"
 palette:
   base00: "ffffff"
   base01: "e1e1e2"

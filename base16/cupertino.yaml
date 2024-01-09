@@ -1,6 +1,7 @@
 system: "base16"
 name: "Cupertino"
 author: "Defman21"
+variant: "light"
 palette:
   base00: "ffffff" # White
   base01: "c0c0c0"

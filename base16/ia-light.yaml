@@ -1,6 +1,7 @@
 system: "base16"
 name: "iA Light"
 author: "iA Inc. (modified by aramisgithub)"
+variant: "light"
 palette:
   base00: "f6f6f6"
   base01: "dedede"

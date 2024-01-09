@@ -1,6 +1,7 @@
 system: "base16"
 name: "Unikitty Reversible"
 author: "Josh W Lewis (@joshwlewis)"
+variant: "dark"
 palette:
   base00: "2e2a31"
   base01: "4b484e"

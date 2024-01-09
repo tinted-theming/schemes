@@ -2,6 +2,7 @@
 system: "base16"
 name: "Embers"
 author: "Jannik Siebert (https://github.com/janniks)"
+variant: "dark"
 palette:
   base00: "16130F" # ----
   base01: "2C2620" # ---

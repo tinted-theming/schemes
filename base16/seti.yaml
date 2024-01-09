@@ -3,6 +3,7 @@ system: "base16"
 name: "Seti UI"
 slug: "seti"
 author: ""
+variant: "dark"
 palette:
   base00: "151718"
   base01: "282a2b"

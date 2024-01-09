@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tokyodark Terminal"
 author: "Tiagovla (https://github.com/tiagovla/)"
+variant: "dark"
 palette:
   base00: "11121d"
   base01: "1A1B2A"

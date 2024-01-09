@@ -2,6 +2,7 @@ system: "base16"
 name: "Dark Violet"
 slug: "darkviolet"
 author: "ruler501 (https://github.com/ruler501/base16-darkviolet)"
+variant: "dark"
 palette:
   base00: "000000" #000000 ----
   base01: "231a40" #231a40 ---

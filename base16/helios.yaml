@@ -1,6 +1,7 @@
 system: "base16"
 name: "Helios"
 author: "Alex Meyer (https://github.com/reyemxela)"
+variant: "dark"
 palette:
   base00: "1d2021" # ----
   base01: "383c3e" # ---

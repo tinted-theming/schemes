@@ -1,6 +1,7 @@
 system: "base16"
 name: "Da One Paper"
 author: "NNB (https://github.com/NNBnh)"
+variant: "light"
 palette:
   base00: "faf0dc"
   base01: "c8c8c8"

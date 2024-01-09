@@ -2,6 +2,7 @@
 system: "base16"
 name: "Apathy"
 author: "Jannik Siebert (https://github.com/janniks)"
+variant: "dark"
 palette:
   base00: "031A16"
   base01: "0B342D"

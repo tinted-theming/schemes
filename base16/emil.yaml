@@ -1,6 +1,7 @@
 system: "base16"
 name: "emil"
 author: "limelier"
+variant: "light"
 palette:
   base00: "efefef"
   base01: "bebed2"

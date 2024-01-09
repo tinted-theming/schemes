@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Heath"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "1b181b"
   base01: "292329"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Plateau Light"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "light"
 palette:
   base00: "f4ecec"
   base01: "e7dfdf"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Atelier Dune"
 author: "Bram de Haan (http://atelierbramdehaan.nl)"
+variant: "dark"
 palette:
   base00: "20201d"
   base01: "292824"

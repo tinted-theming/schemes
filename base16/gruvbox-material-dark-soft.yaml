@@ -1,6 +1,7 @@
 system: "base16"
 name: "Gruvbox Material Dark, Soft"
 author: "Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)"
+variant: "dark"
 palette:
   base00: "32302f"
   base01: "3c3836"

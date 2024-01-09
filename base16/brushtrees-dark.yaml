@@ -2,6 +2,7 @@ system: "base16"
 name: "Brush Trees Dark"
 slug: "brushtrees-dark"
 author: "Abraham White <abelincoln.white@gmail.com>"
+variant: "dark"
 palette:
   base00: "485867"
   base01: "5A6D7A"

@@ -1,6 +1,7 @@
 system: "base16"
 name: "Colors"
 author: "mrmrs (http://clrs.cc)"
+variant: "dark"
 palette:
   base00: "111111" # Black
   base01: "333333"

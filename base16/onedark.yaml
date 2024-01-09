@@ -1,6 +1,7 @@
 system: "base16"
 name: "OneDark"
 author: "Lalit Magant (http://github.com/tilal6991)"
+variant: "dark"
 palette:
   base00: "282c34"
   base01: "353b45"

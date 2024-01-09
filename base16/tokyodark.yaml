@@ -1,6 +1,7 @@
 system: "base16"
 name: "Tokyodark"
 author: "Tiagovla (https://github.com/tiagovla/)"
+variant: "dark"
 palette:
   base00: "11121d"
   base01: "151621"

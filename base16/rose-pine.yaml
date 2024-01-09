@@ -1,6 +1,7 @@
 system: "base16"
 name: "Rosé Pine"
 author: "Emilia Dunfelt <edun@dunfelt.se>"
+variant: "dark"
 palette:
   base00: "191724"
   base01: "1f1d2e"

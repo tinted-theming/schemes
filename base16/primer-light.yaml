@@ -1,6 +1,7 @@
 system: "base16"
 name: "Primer Light"
 author: "Jimmy Lin"
+variant: "light"
 palette:
   base00: "fafbfc"
   base01: "e1e4e8"
