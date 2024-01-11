@@ -2,6 +2,7 @@
 system: "base16"
 name: "Bespin"
 author: "Jan T. Sott"
+variant: "dark"
 palette:
   base00: "28211c"
   base01: "36312e"
