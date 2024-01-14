@@ -1,0 +1,21 @@
+system: "base16"
+name: "Cyberdream"
+author: "Scott McKendry (https://github.com/scottmckendry/cyberdream.nvim)"
+variant: "dark"
+palette:
+  base00: "16181a" # bg
+  base01: "1e2124" # bgAlt
+  base02: "3c4048" # bgHighlight
+  base03: "7b8496" # fg
+  base04: "ffffff" # grey
+  base05: "5ea1ff" # blue
+  base06: "5eff6c" # green
+  base07: "5ef1ff" # cyan
+  base08: "ff6e5e" # red
+  base09: "f1ff5e" # yellow
+  base0A: "ff5ef1" # magenta
+  base0B: "ff5ea0" # pink
+  base0C: "ffbd5e" # orange
+  base0D: "bd5eff" # purple
+  base0E: "6e7ff1" # violet
+  base0F: "5e7fff" # azure
