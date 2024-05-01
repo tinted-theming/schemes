@@ -7,7 +7,7 @@ palette:
   base01: "00313C" # 547 C - Lighter Background
   base02: "003C46" # 547 CP - Selection
   base03: "003B49" # 309 C - Comments
-  base04: "00778B" # 7705 C - Lightest Background 
+  base04: "00778B" # 7705 C - Lightest Background
   base05: "F4F5F0" # 11-0601 Tcx - Foreground
   base06: "F5F5F1" # P 179-1 U - Grey
   base07: "FFFFFF" # Hex White - White - there is no whiter Pantone than 11-0601 Tcx
@@ -20,7 +20,7 @@ palette:
   base0E: "D59ED7" # 7438 C - Purple
   base0F: "9B704D" # 10367 C - Brown
   base10: "4B4F54" # 7540 C - Light Black
-  base11: "212322" # 419 C - Black 
+  base11: "212322" # 419 C - Black
   base12: "FF7276" # 805 C - Light Red
   base13: "F6EB61" # 100 C - Light Yellow - used due to colourblind a11y with Light Orange
   base14: "8EDD65" # 7487 C - Light Green

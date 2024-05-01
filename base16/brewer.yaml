@@ -13,11 +13,11 @@ palette:
   base06: "dadbdc" #  +++
   base07: "fcfdfe" #  ++++
 
-  base08: "e31a1c" #	red
-  base09: "e6550d" #	orange
-  base0A: "dca060" #	yellow
-  base0B: "31a354" #	green
-  base0C: "80b1d3" #	aqua
-  base0D: "3182bd" #	blue
-  base0E: "756bb1" #	purple
-  base0F: "b15928" #	brown
+  base08: "e31a1c" # red
+  base09: "e6550d" # orange
+  base0A: "dca060" # yellow
+  base0B: "31a354" # green
+  base0C: "80b1d3" # aqua
+  base0D: "3182bd" # blue
+  base0E: "756bb1" # purple
+  base0F: "b15928" # brown
