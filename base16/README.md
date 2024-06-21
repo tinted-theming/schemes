@@ -68,6 +68,7 @@ These are the original locations all schemes were imported from.
 * [Pasque](https://github.com/Misterio77/base16-pasque-scheme) maintained by [Misterio77](https://github.com/Misterio77)
 * [pinky](https://github.com/b3nj5m1n/base16-pinky-scheme) maintained by [b3nj5m1n](https://github.com/b3nj5m1n)
 * [Porple](https://github.com/AuditeMarlow/base16-porple-scheme) maintained by [AuditeMarlow](https://github.com/AuditeMarlow)
+* [Precious Themes](https://github.com/precious-themes/base16-precious-schemes) maintained by [precious-themes](https://github.com/precious-themes) ([4lex4](https://github.com/4lex4))
 * [Primer](https://github.com/jmlntw/base16-primer-scheme) maintained by [jmlntw](https://github.com/jmlntw)
 * [Purpledream](https://github.com/archmalet/base16-purpledream-scheme) maintained by [archmalet](https://github.com/archmalet)
 * [Qualia](https://github.com/isaacwhanson/base16-qualia-scheme) maintained by [isaacwhanson](https://github.com/isaacwhanson)
