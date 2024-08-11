@@ -77,6 +77,7 @@ These are the original locations all schemes were imported from.
 * [Sagelight](https://github.com/cveldy/base16-sagelight-scheme) maintained by [cveldy](https://github.com/cveldy)
 * [Sakura](https://github.com/Misterio77/base16-sakura-scheme) maintained by [Misterio77](https://github.com/Misterio77)
 * [Sandcastle](https://github.com/gessig/base16-sandcastle-scheme) maintained by [gessig](https://github.com/gessig)
+* [Sea Dawn](https://github.com/niksingh710/base16-sea-dawn) maintained by [niksingh710](https://github.com/niksingh710)
 * [ShadeSmear](https://github.com/HiRoS-neko/base16-shadesmear-scheme) maintained by [HiRoS-neko](https://github.com/HiRoS-neko)
 * [Shades of Purple](https://github.com/ahmadawais/base16-shades-of-purple) maintained by [Ahmad Awais](https://github.com/ahmadawais) and [Demartini](https://github.com/demartini)
 * [Silk](https://github.com/Misterio77/base16-silk-scheme) maintained by [Misterio77](https://github.com/misterio77)
