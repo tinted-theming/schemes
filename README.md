@@ -2,8 +2,8 @@
 
 Scheme families:
 
-- [base16]
-- [base24]
+- [base16] ([gallery](https://tinted-theming.github.io/base16-gallery/))
+- [base24] ([gallery](https://nico-i.github.io/scheme-viewer/base24/))
 
 ## Contributing
 
