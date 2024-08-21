@@ -13,11 +13,11 @@ palette:
   base06: "EDEAEF"
   base07: "BBAADD"
 
-  base08: "A92258" #Pink
-  base09: "918889" #Gray
-  base0A: "804ead" #Pasque
-  base0B: "C6914B" #Gold
-  base0C: "7263AA" #Lavender
-  base0D: "8E7DC6" #Blue
-  base0E: "953B9D" #Violet
-  base0F: "59325C" #Magenta
+  base08: "A92258" # Pink
+  base09: "918889" # Gray
+  base0A: "804ead" # Pasque
+  base0B: "C6914B" # Gold
+  base0C: "7263AA" # Lavender
+  base0D: "8E7DC6" # Blue
+  base0E: "953B9D" # Violet
+  base0F: "59325C" # Magenta
