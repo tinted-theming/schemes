@@ -1,8 +1,6 @@
 system: "base16"
 name: "Snazzy"
-author: |
-  Chawye Hsu (https://github.com/chawyehsu)
-  based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+author: Chawye Hsu (https://github.com/chawyehsu), based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 variant: "dark"
 palette:
   base00: "282a36"
