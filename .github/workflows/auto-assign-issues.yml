@@ -1,6 +1,6 @@
 name: Auto assignment for issues
 
-on:
+"on":
   issues:
     types: [opened]
 
