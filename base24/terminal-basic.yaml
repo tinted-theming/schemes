@@ -1,7 +1,7 @@
 system: "base24"
 name: "Terminal Basic"
 author: "FredHappyface (https://github.com/fredHappyface)"
-variant: "dark"
+variant: "light"
 palette:
   base00: "ffffff"
   base01: "000000"

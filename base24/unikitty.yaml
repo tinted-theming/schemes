@@ -1,7 +1,7 @@
 system: "base24"
 name: "Unikitty"
 author: "FredHappyface (https://github.com/fredHappyface)"
-variant: "dark"
+variant: "light"
 palette:
   base00: "ff8cd9"
   base01: "0c0c0c"

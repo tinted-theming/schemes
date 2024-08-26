@@ -1,7 +1,7 @@
 system: "base24"
 name: "Man Page"
 author: "FredHappyface (https://github.com/fredHappyface)"
-variant: "dark"
+variant: "light"
 palette:
   base00: "fef49c"
   base01: "000000"
