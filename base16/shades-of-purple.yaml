@@ -1,6 +1,6 @@
 system: "base16"
 name: "Shades of Purple"
-author: "Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)."
+author: Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)
 variant: "dark"
 palette:
   base00: "1e1e3f" # default background
