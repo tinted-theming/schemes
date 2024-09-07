@@ -1,34 +1,22 @@
-scheme: "Deep Oceanic Next"
+# Deep Oceanic Next scheme for the Base16 Builder
+system: "base16"
+name: "Deep Oceanic Next"
 author: "spearkkk (https://github.com/spearkkk/deep-oceanic-next)"
-base00: "003b46" # background
-base01: "004f5e" # black
-base02: "006374" # bright black
-base03: "007a8a" # grey
-base04: "0093a3" # light grey
-base05: "dce3e8" # foreground
-base06: "e6ebf0" # white
-base07: "f0f5f5" # bright white
-base08: "e6454b" # red
-base09: "ff6a4b" # orange
-base0A: "ffcc66" # yellow
-base0B: "85b57a" # green
-base0C: "4da6a6" # cyan/aqua
-base0D: "3a82e6" # blue
-base0E: "8c4de6" # magenta/purple
-base0F: "e673a3" # pink
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+variant: "dark"
+palette:
+  base00: "003b46" #  ----
+  base01: "004f5e" #  ---
+  base02: "006374" #  --
+  base03: "007a8a" #  -
+  base04: "0093a3" #  +
+  base05: "dce3e8" #  ++
+  base06: "e6ebf0" #  +++
+  base07: "f0f5f5" #  ++++
+  base08: "e6454b" #  red
+  base09: "ff6a4b" #  orange
+  base0A: "ffcc66" #  yellow
+  base0B: "85b57a" #  green
+  base0C: "4da6a6" #  aqua
+  base0D: "3a82e6" #  blue
+  base0E: "8c4de6" #  purple
+  base0F: "e673a3" #  brown
