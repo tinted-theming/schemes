@@ -1,7 +1,7 @@
 # base16
 
 Have a look at the
-[Gallery](https://nico-i.github.io/scheme-viewer/base16/) to preview these colorschemes.
+[Gallery](https://tinted-theming.github.io/tinted-gallery/) to preview these colorschemes.
 
 ## Imported Scheme Repositories
 
