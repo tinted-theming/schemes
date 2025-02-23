@@ -3,8 +3,9 @@
 workspace="$1"
 supported_schemes_systems="base16 base24"
 
-if [ -z $workspace ]; then
+if [ -z "$workspace" ]; then
   echo "Missing 'workspace' argument"
+  exit 1
 fi
 
 for scheme_system in $supported_schemes_systems; do
@@ -20,6 +21,11 @@ for scheme_system in $supported_schemes_systems; do
           && grep -q "variant" "$scheme_path"); then
 
           echo "Error: Missing one of the required yaml properties (author|name|palette|system|variant) in $scheme_path"
+          exit 1
+        fi
+
+        if $(grep -q "base0.: \"[^#]" "$scheme_path"); then
+          echo "Error: \"base0x\" palette property must begin with a hash (\"#\") in $scheme_path"
           exit 1
         fi
       ;;
