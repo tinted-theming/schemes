@@ -1,6 +1,6 @@
 system: "base16"
 name: "Windows 95 Light"
-author: "Fergus Collins (https://github.com/C-Fergus)"
+author: "Fergus Collins (https://github.com/ferguscollins)"
 variant: "light"
 palette:
   base00: "#fcfcfc" # bright white

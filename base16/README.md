@@ -96,7 +96,7 @@ These are the original locations all schemes were imported from.
 * [Unikitty](https://github.com/joshwlewis/base16-unikitty) maintained by [joshwlewis](https://github.com/joshwlewis)
 * [Vice](https://github.com/Thomashighbaugh/base16-vice-scheme) maintained by [Thomashighbaugh](https://github.com/Thomashighbaugh)
 * [Valua](https://github.com/nonetrix/Valua-base16) maintained by [Nonetrix](https://github.com/nonetrix)
-* [Windows](https://github.com/C-Fergus/base16-windows-scheme) maintained by [C-Fergus](https://github.com/C-Fergus)
+* [Windows](https://github.com/ferguscollins/base16-windows-scheme) maintained by [ferguscollins](https://github.com/ferguscollins)
 * [Woodland](https://github.com/jcornwall/base16-woodland-scheme) maintained by [jcornwall](https://github.com/jcornwall)
 * [Zenburn](https://github.com/elnawe/base16-zenburn-scheme) maintained by [elnawe](https://github.com/elnawe)
 * [XCode Dust](https://github.com/gonsie/base16-xcode-dusk-scheme) maintained by [gonsie](https://github.com/gonsie)

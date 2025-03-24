@@ -1,7 +1,7 @@
 system: "base16"
 name: "Windows High Contrast"
 slug: "windows-highcontrast"
-author: "Fergus Collins (https://github.com/C-Fergus)"
+author: "Fergus Collins (https://github.com/ferguscollins)"
 variant: "dark"
 palette:
   base00: "#000000" # black
