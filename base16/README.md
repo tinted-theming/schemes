@@ -27,6 +27,7 @@ These are the original locations all schemes were imported from.
 * [Darcula](https://github.com/casonadams/base16-darcula-scheme) maintained by [casonadams](https://github.com/casonadams)
 * [Darkviolet](https://github.com/ruler501/base16-darkviolet-scheme) maintained by [ruler501](https://github.com/ruler501)
 * [Default](https://github.com/chriskempson/base16-default-scheme) maintained by [chriskempson](https://github.com/chriskempson)
+* [Digital Rain](https://github.com/cognitivegears/digital-rain) maintained by [Nathan Byrd](https://github.com/cognitivegears)
 * [Dracula](https://github.com/dracula/base16-dracula-scheme) maintained by [mikebarkmin](https://github.com/mikebarkmin)
 * [Evenok](https://codeberg.org/mekeor/emacs-evenok-themes) maintained by [Mekeor Melire](https://codeberg.org/mekeor)
 * [Equilibrium](https://github.com/carloabelli/base16-equilibrium-scheme) maintained by [carloabelli](https://github.com/carloabelli)
