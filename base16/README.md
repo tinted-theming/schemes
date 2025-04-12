@@ -48,6 +48,7 @@ These are the original locations all schemes were imported from.
 * [iA](https://github.com/aramisgithub/base16-ia-scheme) maintained by [aramisgithub](https://github.com/aramisgithub)
 * [Icy](https://github.com/icyphox/base16-icy-scheme) maintained by [icyphox](https://github.com/icyphox)
 * [Kanagawa](https://github.com/montdor/base16-kanagawa-theme) maintained by [montdor](https://github.com/montdor)
+* [Kanagawa Dragon](https://github.com/rayslash/base16-kanagawadragon-scheme) maintained by [rayslash](https://github.com/rayslash)
 * [Katy](https://github.com/gessig/base16-katy-scheme) maintained by [gessig](https://github.com/gessig)
 * [Kimber](https://github.com/akhsiM/base16-kimber-scheme) maintained by [Mishka](https://github.com/akhsiM)
 * [Limelight](https://github.com/limelier/base16-limelight-scheme) maintained by [limelier](https://github.com/limelier)
