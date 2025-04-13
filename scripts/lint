@@ -24,6 +24,11 @@ for scheme_system in $supported_schemes_systems; do
           exit 1
         fi
 
+        if ! grep -q "$scheme_system" "$scheme_path"; then
+          echo "Error: Scheme system "$scheme_system" value missing from file"
+          exit 1
+        fi
+
         if $(grep -q "base0.: \"[^#]" "$scheme_path"); then
           echo "Error: \"base0x\" palette property must begin with a hash (\"#\") in $scheme_path"
           exit 1
