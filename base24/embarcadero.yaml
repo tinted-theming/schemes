@@ -1,5 +1,5 @@
 system: "base24"
-scheme: "Embarcadero"
+name: "Embarcadero"
 author: "Thomas Leon Highbaugh"
 variant: "dark"
 palette:
