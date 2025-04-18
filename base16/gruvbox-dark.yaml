@@ -1,5 +1,5 @@
 system: "base16"
-name: "Gruvbox dark, medium"
+name: "Gruvbox dark"
 author: "Tinted Theming (https://github.com/tinted-theming), morhetz (https://github.com/morhetz/gruvbox)"
 variant: "dark"
 palette:
