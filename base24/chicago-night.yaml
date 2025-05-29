@@ -1,0 +1,33 @@
+name:     "Chicago Night"
+author:   "Wendell, Ryan <ryanjwendell@gmail.com>"
+variant:  "dark"
+system:   "base24"
+palette:
+  base00: "1e2a24"  # Default Background (Very Dark Ivy Green)
+  base01: "2a3b32"  # Lighter Background (Dark Ivy Green)
+  base02: "364c40"  # Selection Background (Medium-Dark Ivy Green)
+  base03: "5f7368"  # Comments, Invisibles (Desaturated Ivy, lighter than base)
+  base04: "8a9a91"  # Dark Foreground / Secondary Text (Weathered Green Stone)
+  base05: "a7b8af"  # Default Foreground / Main Text (Light Greenish Grey)
+  base06: "c1cdc7"  # Light Foreground / Bright Highlights (Very Light Greenish Grey)
+  base07: "dbe3de"  # Light Background / Strongest Highlights (Pale Green Tint)
+
+  # Accent Colors (CTA Lines - Mapped to Base16 Spec)
+  base08: "c60c30"  # Red         (CTA Red Line)
+  base09: "f9461c"  # Orange      (CTA Orange Line)
+  base0A: "f9e300"  # Yellow      (CTA Yellow Line - original vibrant for dark theme)
+  base0B: "009b3a"  # Green       (CTA Green Line)
+  base0C: "00a1de"  # Cyan        (CTA Blue Line)
+  base0D: "522398"  # Blue/Purple (CTA Purple Line)
+  base0E: "e27ea6"  # Magenta     (CTA Pink Line)
+  base0F: "62361b"  # Brown       (CTA Brown Line)
+
+  # Additional 8 colors for Base24 (derived shades of Wrigley Green)
+  base10: "284030"  # Slightly more saturated version of base01
+  base11: "74867C"  # Bridge between base03 and base04
+  base12: "2E4036"  # Darker, more intense version of base02
+  base13: "9CAAA1"  # Lighter, less saturated version of base04
+  base14: "EAF0EC"  # Very light green, almost white, for highlights
+  base15: "15201A"  # Very dark green, almost black, for deep contrast
+  base16: "6D8076"  # Mid-tone desaturated green, different from base03
+  base17: "223028"  # Slightly brighter/more vivid version of base00

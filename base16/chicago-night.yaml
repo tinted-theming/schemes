@@ -1,0 +1,23 @@
+name:     "Chicago Night"
+author:   "Wendell, Ryan <ryanjwendell@gmail.com>"
+variant:  "dark"
+system:   "base16"
+palette:
+  base00: "1e2a24"  # Default Background (Very Dark Ivy Green)
+  base01: "2a3b32"  # Lighter Background (Dark Ivy Green)
+  base02: "364c40"  # Selection Background (Medium-Dark Ivy Green)
+  base03: "5f7368"  # Comments, Invisibles (Desaturated Ivy, lighter than base)
+  base04: "8a9a91"  # Dark Foreground / Secondary Text (Weathered Green Stone)
+  base05: "a7b8af"  # Default Foreground / Main Text (Light Greenish Grey)
+  base06: "c1cdc7"  # Light Foreground / Bright Highlights (Very Light Greenish Grey)
+  base07: "dbe3de"  # Light Background / Strongest Highlights (Pale Green Tint)
+
+  # Accent Colors (CTA Lines - Mapped to Base16 Spec)
+  base08: "c60c30"  # Red         (CTA Red Line)
+  base09: "f9461c"  # Orange      (CTA Orange Line)
+  base0A: "f9e300"  # Yellow      (CTA Yellow Line - original vibrant for dark theme)
+  base0B: "009b3a"  # Green       (CTA Green Line)
+  base0C: "00a1de"  # Cyan        (CTA Blue Line)
+  base0D: "522398"  # Blue/Purple (CTA Purple Line)
+  base0E: "e27ea6"  # Magenta     (CTA Pink Line)
+  base0F: "62361b"  # Brown       (CTA Brown Line)
