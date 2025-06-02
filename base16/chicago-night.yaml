@@ -1,7 +1,7 @@
-name:     "Chicago Night"
-author:   "Wendell, Ryan <ryanjwendell@gmail.com>"
-variant:  "dark"
-system:   "base16"
+name: "Chicago Night"
+author: "Wendell, Ryan <ryanjwendell@gmail.com>"
+variant: "dark"
+system: "base16"
 palette:
   base00: "1e2a24"
   base01: "2a3b32"

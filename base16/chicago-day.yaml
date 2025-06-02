@@ -1,7 +1,7 @@
-name:     "Chicago Day"
-author:   "Wendell, Ryan <ryanjwendell@gmail.com>"
-variant:  "light"
-system:   "base16"
+name: "Chicago Day"
+author: "Wendell, Ryan <ryanjwendell@gmail.com>"
+variant: "light"
+system: "base16"
 palette:
   base00: "e8f0ea"
   base01: "d1e0d7"
