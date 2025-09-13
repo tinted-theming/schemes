@@ -1,29 +1,37 @@
 system: "base24"
 name: "Dracula"
-author: "FredHappyface (https://github.com/fredHappyface)"
+author: "clach04 (https://github.com/clach04)"
+description: "based on https://spec.draculatheme.com/#sec-ANSI"
 variant: "dark"
 palette:
   base00: "#282a36"
-  base01: "#363447"
+  base01: "#21222c"
   base02: "#44475a"
   base03: "#6272a4"
-  base04: "#9ea8c7"
+  base04: "#9ea8c7"  # NOT a Dracula color!
   base05: "#f8f8f2"
-  base06: "#f0f1f4"
+  base06: "#f0f1f4"  # NOT a Dracula color!
   base07: "#ffffff"
+
   base08: "#ff5555"
   base09: "#ffb86c"
   base0A: "#f1fa8c"
   base0B: "#50fa7b"
   base0C: "#8be9fd"
-  base0D: "#80bfff"
+  base0D: "#bd93f9"
   base0E: "#ff79c6"
-  base0F: "#bd93f9"
-  base10: "#1e2029"
-  base11: "#16171d"
-  base12: "#f28c8c"
-  base13: "#eef5a3"
-  base14: "#a3f5b8"
-  base15: "#baedf7"
-  base16: "#a3ccf5"
-  base17: "#f5a3d2"
+  base0F: "#993333"  # NOT a Dracula color! - this is a darker shaed of base08 - derived via https://www.color-hex.com/color/ff5555
+
+  base10: "#1e2029"  # NOT a Dracula color! - Consider using something in range base00-07
+  base11: "#16171d"  # NOT a Dracula color! - Consider using something in range base00-07
+  base12: "#ff6e6e"
+  base13: "#ffffa5"
+  base14: "#69ff94"
+  base15: "#a4ffff"
+  base16: "#d6acff"
+  base17: "#ff92df"
+
+#based on https://spec.draculatheme.com/#sec-ANSI
+#Straight mapping of ANSI values from specification as of 2024 (last updated 2021)
+#Reference https://github.com/dracula/dracula-theme
+#Referencs https://github.com/dracula/spec/blob/master/dracula-spec.md
