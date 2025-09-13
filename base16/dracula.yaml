@@ -6,11 +6,11 @@ variant: "dark"
 palette:
   base00: "#282a36"
   base01: "#21222c"
-  base02: "#44475a"
-  base03: "#6272a4"
+  base02: "#44475a"  # FIXME base24 uses this as ANSI Bright Black.. But text editors use this for Selection color - no clear solution here
+  base03: "#6272a4"  # Dracula AnsiBrightBlack
   base04: "#9ea8c7"  # NOT a Dracula color!
-  base05: "#f8f8f2"
-  base06: "#f0f1f4"  # NOT a Dracula color!
+  base05: "#f8f8f2"  # Dracula AnsiWhite
+  base06: "#f0f1f4"  # NOT a Dracula color!# FIXME base24 uses this as ANSI White
   base07: "#ffffff"
 
   base08: "#ff5555"
