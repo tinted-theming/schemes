@@ -1,4 +1,4 @@
-system: "base16"
+system: "base24"
 name: "PaperColor Dark"
 author: "Nguyen Nguyen (https://github.com/NLKNguyen/papercolor-theme)"
 variant: "dark"
@@ -19,3 +19,11 @@ palette:
   base0D: "#5fafd7" # Blue - Functions
   base0E: "#af87d7" # Purple - Keywords
   base0F: "#ff5faf" # Magenta - Deprecated, Special
+  base10: "#121212" # Darker background variant
+  base11: "#080808" # Darkest background
+  base12: "#d7005f" # Bright Red
+  base13: "#87d75f" # Brighter Green
+  base14: "#ffd75f" # Bright Yellow
+  base15: "#87d700" # Bright Green variant
+  base16: "#ffd700" # Bright Orange/Yellow
+  base17: "#87d7ff" # Bright Cyan/Blue

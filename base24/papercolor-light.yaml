@@ -1,4 +1,4 @@
-system: "base16"
+system: "base24"
 name: "PaperColor Light"
 author: "Nguyen Nguyen (https://github.com/NLKNguyen/papercolor-theme)"
 variant: "light"
@@ -19,3 +19,11 @@ palette:
   base0D: "#0087af" # Blue - Functions
   base0E: "#8700af" # Purple - Keywords
   base0F: "#005faf" # Navy Blue - Deprecated, Special
+  base10: "#f4f4f4" # Lighter background variant
+  base11: "#ffffff" # Lightest background
+  base12: "#d70000" # Bright Red
+  base13: "#ff00af" # Bright Pink
+  base14: "#87af00" # Bright Olive
+  base15: "#00af00" # Bright Green
+  base16: "#ff8700" # Bright Orange
+  base17: "#5fafff" # Bright Blue
