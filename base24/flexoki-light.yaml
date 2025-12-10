@@ -1,6 +1,7 @@
 system: "base24"
 name: "Flexoki Light"
 author: "Steph Ango (https://github.com/kepano/flexoki)"
+description: "Inky color scheme for prose and code"
 variant: "light"
 palette:
   base00: "#FFFCF0" # paper - background

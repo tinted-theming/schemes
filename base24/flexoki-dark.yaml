@@ -1,6 +1,7 @@
 system: "base24"
 name: "Flexoki Dark"
 author: "Steph Ango (https://github.com/kepano/flexoki)"
+description: "Inky color scheme for prose and code"
 variant: "dark"
 palette:
   base00: "#100F0F" # black - background
