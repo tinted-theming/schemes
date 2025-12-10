@@ -1,6 +1,6 @@
 system: "base16"
 name: "Flexoki Dark"
-author: "Steph Ango (kepano) - adapted for base16"
+author: "Steph Ango (https://github.com/kepano/flexoki)"
 variant: "dark"
 palette:
   base00: "#100F0F" # black - background

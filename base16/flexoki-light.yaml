@@ -1,6 +1,6 @@
 system: "base16"
 name: "Flexoki Light"
-author: "Steph Ango (kepano) - adapted for base16"
+author: "Steph Ango (https://github.com/kepano/flexoki)"
 variant: "light"
 palette:
   base00: "#FFFCF0" # paper - background
