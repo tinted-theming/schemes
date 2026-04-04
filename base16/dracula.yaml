@@ -1,28 +1,45 @@
 system: "base16"
 name: "Dracula"
 author: "clach04 (https://github.com/clach04)"
-description: "based on https://spec.draculatheme.com/#sec-ANSI"
+description: "based on https://github.com/dracula/draculatheme.com/blob/main/content/spec.mdx"
 variant: "dark"
+# Subset of base24 Dracula
+# https://github.com/tinted-theming/base24/blob/main/styling.md
+# https://github.com/tinted-theming/home/blob/main/styling.md
+# https://github.com/chriskempson/base16/blob/main/styling.md
+# Typically expect order of base00-base07 (dark to light versus light to dark) to differ depending on variant
+# based on https://github.com/dracula/draculatheme.com/blob/main/content/spec.mdx
+# Straight mapping of ANSI values from specification as of 2026-03-29
+# Reference https://github.com/dracula/dracula-theme
+# From https://github.com/clach04/putty_themes/blob/master/raw_themes/dracula.tstk which is used as source for https://github.com/clach04/dracula_putty
+#TODO consider Purple for cursor
 palette:
-  base00: "#282a36"
-  base01: "#21222c"
-  base02: "#44475a"  # FIXME base24 uses this as ANSI Bright Black.. But text editors use this for Selection color - no clear solution here
-  base03: "#6272a4"  # Dracula AnsiBrightBlack
-  base04: "#9ea8c7"  # NOT a Dracula color!
-  base05: "#f8f8f2"  # Dracula AnsiWhite
-  base06: "#f0f1f4"  # NOT a Dracula color!# FIXME base24 uses this as ANSI White
-  base07: "#ffffff"
+  base00: "#282a36"  # Default Background  # Dracula Background
+  base01: "#21222c"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Dracula Background Dark / AnsiBlack
+  base02: "#44475A"  # Selection Background (Bright Black) # Dracula Selection
+  base03: "#6272a4"  # Comments, Invisibles, Line Highlighting (Grey) # Dracula Current Line / Comment / AnsiBrightBlack
+  base04: "#9ea8c7"  # Dark/Light Foreground (Used for status bars) (Light Grey) # NOT a Dracula color!
+  base05: "#f8f8f2"  # Default Foreground, Caret, Delimiters, Operators (Foreground) # Dracula Foreground / AnsiWhite
+  base06: "#f8f8f2"  # Dark Foreground (Not often used) (White)  # TODO review, currently same as above base05
+  base07: "#ffffff"  # Dark Background (Not often used) (Bright White) # Dracula AnsiBrightWhite
 
-  base08: "#ff5555"
-  base09: "#ffb86c"
-  base0A: "#f1fa8c"
-  base0B: "#50fa7b"
-  base0C: "#8be9fd"
-  base0D: "#bd93f9"
-  base0E: "#ff79c6"
-  base0F: "#993333"  # NOT a Dracula color! - this is a darker shaed of base08 - derived via https://www.color-hex.com/color/ff5555
+  # ANSI8 (without Black/White) + 2 (Orange + Dark Red/Brown)
+  base08: "#ff5555"  # Red
+  base09: "#FFB86C"  # Orange
+  base0A: "#f1fa8c"  # Yellow
+  base0B: "#50fa7b"  # Green
+  base0C: "#8be9fd"  # Aqua / Cyan
+  base0D: "#bd93f9"  # Blue
+  base0E: "#ff79c6"  # Purple / Magenta
+  base0F: "#993333"  # Dark Red or Brown, derive dark red from base08 - derived via https://www.color-hex.com/color/ff5555
 
-#based on https://spec.draculatheme.com/#sec-ANSI
-#Straight mapping of ANSI values from specification as of 2024 (last updated 2021)
-#Reference https://github.com/dracula/dracula-theme
-#Referencs https://github.com/dracula/spec/blob/master/dracula-spec.md
+  # ANSI16 Bright/Bold (without Black/White)
+  base10: "#1e2029"  # (Darker Black)	Darker Background - NOT a Dracula color! - Consider using something in range base00-07 or deriving based on base00
+  base11: "#16171d"  # (Darkest Black)	The Darkest Background - NOT a Dracula color! - Consider using something in range base00-07 or deriving based on base00
+  base12: "#ff6e6e"  # Bright Red
+  base13: "#ffffa5"  # Bright Yellow
+  base14: "#69ff94"  # Bright Green
+  base15: "#a4ffff"  # Bright Cyan
+  base16: "#d6acff"  # Bright Blue
+  base17: "#ff92df"  # Bright Magenta / Bright Purple
+
