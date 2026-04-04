@@ -22,7 +22,6 @@ palette:
   base05: "#f8f8f2"  # Default Foreground, Caret, Delimiters, Operators (Foreground) # Dracula Foreground / AnsiWhite
   base06: "#f8f8f2"  # Dark Foreground (Not often used) (White)  # TODO review, currently same as above base05
   base07: "#ffffff"  # Dark Background (Not often used) (Bright White) # Dracula AnsiBrightWhite
-
   # ANSI8 (without Black/White) + 2 (Orange + Dark Red/Brown)
   base08: "#ff5555"  # Red
   base09: "#FFB86C"  # Orange

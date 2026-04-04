@@ -21,7 +21,6 @@ palette:
   base05: "#f8f8f2"  # Default Foreground, Caret, Delimiters, Operators (Foreground) # Dracula Foreground / AnsiWhite
   base06: "#f8f8f2"  # Dark Foreground (Not often used) (White)  # TODO review, currently same as above base05
   base07: "#ffffff"  # Dark Background (Not often used) (Bright White) # Dracula AnsiBrightWhite
-
   # ANSI8 (without Black/White) + 2 (Orange + Dark Red/Brown)
   base08: "#ff5555"  # Red
   base09: "#FFB86C"  # Orange
@@ -31,7 +30,6 @@ palette:
   base0D: "#bd93f9"  # Blue
   base0E: "#ff79c6"  # Purple / Magenta
   base0F: "#993333"  # Dark Red or Brown, derive dark red from base08 - derived via https://www.color-hex.com/color/ff5555
-
   # ANSI16 Bright/Bold (without Black/White)
   base10: "#1e2029"  # (Darker Black)	Darker Background - NOT a Dracula color! - Consider using something in range base00-07 or deriving based on base00
   base11: "#16171d"  # (Darkest Black)	The Darkest Background - NOT a Dracula color! - Consider using something in range base00-07 or deriving based on base00
