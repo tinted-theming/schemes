@@ -31,7 +31,7 @@ palette:
   base0E: "#ff79c6"  # Purple / Magenta
   base0F: "#993333"  # Dark Red or Brown, derive dark red from base08 - derived via https://www.color-hex.com/color/ff5555
   # ANSI16 Bright/Bold (without Black/White)
-  base10: "#1e2029"  # (Darker Black)	Darker Background - NOT a Dracula color! - Consider using something in range base00-07 or deriving based on base00
+  base10: "#1e2029"  # (Darker Black)	Darker Background - NOT a Dracula color!
   base11: "#16171d"  # (Darkest Black)	The Darkest Background - NOT a Dracula color! - Consider using something in range base00-07 or deriving based on base00
   base12: "#ff6e6e"  # Bright Red
   base13: "#ffffa5"  # Bright Yellow
