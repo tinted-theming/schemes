@@ -8,10 +8,6 @@ variant: "dark"
 # https://github.com/chriskempson/base16/blob/main/styling.md
 # Typically expect order of base00-base07 (dark to light versus light to dark) to differ depending on variant
 # based on https://github.com/dracula/draculatheme.com/blob/main/content/spec.mdx
-# Straight mapping of ANSI values from specification as of 2026-03-29
-# Reference https://github.com/dracula/dracula-theme
-# From https://github.com/clach04/putty_themes/blob/master/raw_themes/dracula.tstk which is used as source for https://github.com/clach04/dracula_putty
-#TODO consider Purple for cursor
 palette:
   base00: "#282a36"  # Default Background  # Dracula Background
   base01: "#21222c"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Dracula Background Dark / AnsiBlack
