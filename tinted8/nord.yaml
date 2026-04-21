@@ -47,4 +47,4 @@ ui:
   gutter:
     foreground: "#434c5e"
   status.info: "#ebcb8b"
-  accent: "#88c0d0"
+  accent.normal: "#88c0d0"
