@@ -43,7 +43,7 @@ ui:
   highlight:
     line:
       background: "#434c5e"
-  border: "#3b4252"
+  border.normal: "#3b4252"
   gutter:
     foreground: "#434c5e"
   status.info: "#ebcb8b"
