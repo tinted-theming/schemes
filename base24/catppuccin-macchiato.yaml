@@ -1,29 +1,32 @@
 system: "base24"
 name: "Catppuccin Macchiato"
 author: "https://github.com/catppuccin/catppuccin"
+description: "Macchiato flavor, including its published ANSI colors, based on based on https://catppuccin.com/palette/"
 variant: "dark"
 palette:
-  base00: "#24273a" # base
-  base01: "#1e2030" # mantle
-  base02: "#363a4f" # surface0
-  base03: "#494d64" # surface1
-  base04: "#5b6078" # surface2
-  base05: "#cad3f5" # text
-  base06: "#f4dbd6" # rosewater
-  base07: "#b7bdf8" # lavender
-  base08: "#ed8796" # red
-  base09: "#f5a97f" # peach
-  base0A: "#eed49f" # yellow
-  base0B: "#a6da95" # green
-  base0C: "#8bd5ca" # teal
-  base0D: "#8aadf4" # blue
-  base0E: "#c6a0f6" # mauve
-  base0F: "#f0c6c6" # flamingo
-  base10: "#1e2030" # mantle - darker background
-  base11: "#181926" # crust - darkest background
-  base12: "#ee99a0" # maroon - bright red
-  base13: "#f4dbd6" # rosewater - bright yellow
-  base14: "#a6da95" # green - bright green
-  base15: "#91d7e3" # sky - bright cyan
-  base16: "#7dc4e4" # sapphire - bright blue
-  base17: "#f5bde6" # pink - bright purple
+  base00: "#24273a"  # Default Background  # Catppuccin Base
+  base01: "#1e2030"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Catppuccin Mantle / AnsiBlack
+  base02: "#494d64"  # Selection Background (Bright Black) # Catppuccin Surface 1
+  base03: "#6e738d"  # Comments, Invisibles, Line Highlighting (Grey) # Catppuccin Overlay 0 / AnsiBrightBlack
+  base04: "#a5adcb"  # Dark/Light Foreground (Used for status bars) (Light Grey) # Catppuccin Subtext 0
+  base05: "#cad3f5"  # Default Foreground, Caret, Delimiters, Operators (Foreground) # Catppuccin Text / AnsiWhite
+  base06: "#f4dbd6"  # Light Foreground (Not often used) (White) # Catppuccin Rosewater
+  base07: "#ffffff"  # Light Background (Not often used) (Bright White) # NOT a Catppuccin color!
+  # ANSI8 (without Black/White) + 2 (Orange + Dark Red/Brown)
+  base08: "#ed8796"  # Red # Catppuccin Red
+  base09: "#f5a97f"  # Orange # Catppuccin Peach
+  base0A: "#eed49f"  # Yellow # Catppuccin Yellow
+  base0B: "#a6da95"  # Green # Catppuccin Green
+  base0C: "#8bd5ca"  # Aqua / Cyan # Catppuccin Teal
+  base0D: "#8aadf4"  # Blue # Catppuccin Blue
+  base0E: "#c6a0f6"  # Purple / Magenta # Catppuccin Mauve
+  base0F: "#ee99a0"  # Dark Red or Brown # Catppuccin Maroon, the palette's second red
+  # ANSI16 Bright/Bold (without Black/White)
+  base10: "#181926"  # (Darker Black)	Darker Background # Catppuccin Crust
+  base11: "#101019"  # (Darkest Black)	The Darkest Background - NOT a Catppuccin color! Derived from Crust
+  base12: "#ec7486"  # Bright Red
+  base13: "#e1c682"  # Bright Yellow
+  base14: "#8ccf7f"  # Bright Green
+  base15: "#63cbc0"  # Bright Cyan
+  base16: "#78a1f6"  # Bright Blue
+  base17: "#f2a9dd"  # Bright Magenta / Bright Purple
