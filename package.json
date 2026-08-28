@@ -1,0 +1,14 @@
+{
+  "name": "tinted-schemes-tooling",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Generators and tooling for tinted-theming schemes",
+  "type": "module",
+  "scripts": {
+    "generate:github": "node scripts/generate-github-schemes.mjs"
+  },
+  "devDependencies": {
+    "@primer/primitives": "11.9.0",
+    "json5": "^2.2.3"
+  }
+}
