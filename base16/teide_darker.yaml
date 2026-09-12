@@ -1,0 +1,21 @@
+system: "base16"
+name: "Teide"
+author: "Sergio Hernandez"
+variant: "darker"
+palette:
+  base00: #171B20
+  base01: #111418
+  base02: #254365
+  base03: #414868
+  base04: #89BEFF
+  base05: #919BCA
+  base06: #a9b1d6
+  base07: #E7EAEE
+  base08: #F97791
+  base09: #FFA064
+  base0A: #FFCB77
+  base0B: #38FFA5
+  base0C: #5CCEFF
+  base0D: #B1A2FF
+  base0E: #FFB3EC
+  base0F: #F73F64
