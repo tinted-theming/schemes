@@ -5,7 +5,7 @@ description: "Mocha flavor, based on https://catppuccin.com/palette/"
 variant: "dark"
 palette:
   base00: "#1e1e2e"  # Default Background  # Catppuccin Base
-  base01: "#181825"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Catppuccin Mantle / AnsiBlack
+  base01: "#313244"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Catppuccin Surface 0 / AnsiBlack
   base02: "#45475a"  # Selection Background (Bright Black) # Catppuccin Surface 1
   base03: "#6c7086"  # Comments, Invisibles, Line Highlighting (Grey) # Catppuccin Overlay 0 / AnsiBrightBlack
   base04: "#a6adc8"  # Dark/Light Foreground (Used for status bars) (Light Grey) # Catppuccin Subtext 0

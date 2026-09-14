@@ -5,7 +5,7 @@ description: "Frappe flavor, including its published ANSI colors, based on https
 variant: "dark"
 palette:
   base00: "#303446"  # Default Background  # Catppuccin Base
-  base01: "#292c3c"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Catppuccin Mantle / AnsiBlack
+  base01: "#414559"  # Darker Background (Darkest Gray) (Used for status bars, line number and folding marks) # Catppuccin Surface 0 / AnsiBlack
   base02: "#51576d"  # Selection Background (Bright Black) # Catppuccin Surface 1
   base03: "#737994"  # Comments, Invisibles, Line Highlighting (Grey) # Catppuccin Overlay 0 / AnsiBrightBlack
   base04: "#a5adce"  # Dark/Light Foreground (Used for status bars) (Light Grey) # Catppuccin Subtext 0
