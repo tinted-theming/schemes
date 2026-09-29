@@ -1,6 +1,7 @@
 ---
 system: "base24"
 name: "Abyssal"
+slug: "abyssal"
 author: "Joss Wright (https://www.weirddatascience.net)"
 variant: "dark"
 palette:
