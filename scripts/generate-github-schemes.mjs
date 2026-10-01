@@ -20,7 +20,7 @@ import JSON5 from 'json5'
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const PKG = path.join(ROOT, 'node_modules', '@primer', 'primitives')
 const SRC = path.join(PKG, 'src', 'tokens', 'base', 'color')
-const DIST = path.join(PKG, 'dist', 'css', 'functional', 'themes')
+const DOCS = path.join(PKG, 'dist', 'docs', 'functional', 'themes')
 const AUTHOR = 'Tinted Theming (https://github.com/tinted-theming)'
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -47,7 +47,7 @@ const MONO_STEPS = {
   dark:  [1, 2, 6, 8, 9, 11, 12, 13],
 }
 
-// Accent slots -> resolved dist CSS custom property (without the leading `--`).
+// Accent slots -> resolved primer token name (key in the docs JSON).
 // Two philosophies, selectable with `--mode`:
 //
 //   prettylights  (default) — map GitHub's *code syntax* (prettylights) colors
@@ -102,6 +102,81 @@ const BASE16_SLOTS = ['base00','base01','base02','base03','base04','base05','bas
 const BASE24_SLOTS = [...BASE16_SLOTS,
                       'base10','base11','base12','base13','base14','base15','base16','base17']
 
+// ── Tinted8 ───────────────────────────────────────────────────────────────
+// Tinted8 carries GitHub's three color domains on the right semantic keys:
+//   palette  <- ANSI  (terminal fidelity + the accent hues)
+//   syntax.* <- prettylights  (blob/gist parity)
+//   ui.*     <- functional tokens  (correct canvas/chrome — ANSI ink is NOT
+//              the editor surface, so palette defaults would mis-colour it)
+// Only solid #RRGGBB tokens are used; GitHub's alpha tokens (selection,
+// neutral-muted, accent-muted in dark, ...) are skipped — Tinted8 forbids
+// alpha, and the builder defaults those keys acceptably. Keys are sparse:
+// unspecified keys inherit/derive per the Tinted8 builder spec.
+const T8_PALETTE = {
+  black: 'ansi-black',   red: 'ansi-red',         green: 'ansi-green',     yellow: 'ansi-yellow',
+  blue: 'ansi-blue',     magenta: 'ansi-magenta', cyan: 'ansi-cyan',       white: 'ansi-white',
+  'black-bright': 'ansi-blackBright',   'red-bright': 'ansi-redBright',     'green-bright': 'ansi-greenBright',
+  'yellow-bright': 'ansi-yellowBright', 'blue-bright': 'ansi-blueBright',   'magenta-bright': 'ansi-magentaBright',
+  'cyan-bright': 'ansi-cyanBright',     'white-bright': 'ansi-whiteBright',
+  gray: 'ansi-gray',     orange: 'prettylights-syntax-variable',
+}
+const T8_SYNTAX = {
+  'comment': 'prettylights-syntax-comment',
+  'keyword': 'prettylights-syntax-keyword',
+  'storage': 'prettylights-syntax-keyword',            // GitHub colours storage as keyword
+  'keyword.control.import': 'prettylights-syntax-storageModifierImport',
+  'string': 'prettylights-syntax-string',
+  'string.regexp': 'prettylights-syntax-stringRegexp',
+  'constant': 'prettylights-syntax-constant',
+  'variable': 'prettylights-syntax-variable',
+  'variable.parameter': 'fgColor-default',             // GitHub leaves params default-coloured
+  'entity.name.function': 'prettylights-syntax-entity',
+  'support.function': 'prettylights-syntax-entity',    // builtins render as entities on GitHub
+  'entity.name.tag': 'prettylights-syntax-entityTag',
+  'entity.name.namespace': 'prettylights-syntax-variable',
+  'punctuation': 'fgColor-default',                    // GitHub leaves punctuation uncoloured
+  'markup.bold': 'prettylights-syntax-markup-bold',
+  'markup.italic': 'prettylights-syntax-markup-italic',
+  'markup.heading': 'prettylights-syntax-markup-heading',
+  'markup.list': 'prettylights-syntax-markup-list',
+  'markup.link': 'prettylights-syntax-constantOtherReferenceLink',
+  'markup.inserted': 'prettylights-syntax-markup-inserted-text',
+  'markup.changed': 'prettylights-syntax-markup-changed-text',
+  'markup.deleted': 'prettylights-syntax-markup-deleted-text',
+}
+const T8_UI = {
+  'global.background.normal': 'bgColor-default',
+  'global.background.dark': 'bgColor-muted',
+  'global.foreground.normal': 'fgColor-default',
+  'global.foreground.dark': 'fgColor-muted',
+  'chrome.background.normal': 'bgColor-muted',
+  'chrome.foreground.normal': 'fgColor-default',
+  'chrome.foreground.dark': 'fgColor-muted',
+  'border.normal': 'borderColor-default',
+  'accent.normal': 'fgColor-accent',
+  // Styling spec defines the leaves `ui.link.normal.{foreground,background}`,
+  // not a bare `ui.link.normal` (that bare form in the builder spec's defaults
+  // table is a doc bug the builder rejects). Use the foreground leaf.
+  'link.normal.foreground': 'fgColor-accent',
+  'gutter.background': 'bgColor-default',
+  'gutter.foreground': 'fgColor-disabled',
+  'whitespace.foreground': 'fgColor-disabled',
+  // GitHub has no dedicated caret token: caret = default fg, char-under-caret =
+  // canvas (sourcing foreground from functional avoids the ANSI-white=gray trap).
+  // Cursor keys are state-first (`cursor.<state>.<ground>`), like link — the
+  // spec tables' ground-first `cursor.background.normal` form is a doc bug.
+  'cursor.normal.background': 'fgColor-default',
+  'cursor.normal.foreground': 'bgColor-default',
+  'cursor.muted.background': 'fgColor-muted',
+  'cursor.muted.foreground': 'bgColor-muted',
+  'status.error': 'fgColor-danger',
+  'status.warning': 'fgColor-attention',
+  'status.success': 'fgColor-success',
+  'status.info': 'fgColor-accent',
+  'tooltip.background': 'bgColor-emphasis',
+  'tooltip.foreground': 'fgColor-onEmphasis',
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // src json5 neutral-scale resolver
 // ─────────────────────────────────────────────────────────────────────────
@@ -147,24 +222,20 @@ function resolveColor(tree, dottedPath, seen = new Set()) {
 }
 
 // ─────────────────────────────────────────────────────────────────────────
-// dist CSS var map
+// resolved functional-token map (prebuilt, per theme)
 // ─────────────────────────────────────────────────────────────────────────
 
-function loadCssVars(theme) {
-  const css = fs.readFileSync(path.join(DIST, `${theme}.css`), 'utf8')
-  const raw = {}
-  for (const m of css.matchAll(/--([\w-]+):\s*(#[0-9a-fA-F]+|var\(--[\w-]+\))\s*;/g)) {
-    const key = m[1].toLowerCase()
-    if (!(key in raw)) raw[key] = m[2]
+// Primer ships fully-resolved per-theme tokens at dist/docs/functional/themes/
+// <theme>.json — a flat object keyed by the exact CSS-var name (no leading
+// `--`) with `value` already resolved to a literal hex (no var()/ref chasing).
+// Returns name -> hex; throws on a missing key (catches upstream renames).
+function loadTokens(theme) {
+  const tokens = JSON.parse(fs.readFileSync(path.join(DOCS, `${theme}.json`), 'utf8'))
+  return (name) => {
+    const t = tokens[name]
+    if (!t || t.value === undefined) throw new Error(`missing token --${name} in ${theme}.json`)
+    return t.value
   }
-  const resolve = (name, depth = 0) => {
-    const val = raw[name.toLowerCase()]
-    if (val === undefined) throw new Error(`missing CSS var --${name} in ${theme}.css`)
-    const ref = val.match(/^var\(--([\w-]+)\)$/)
-    if (ref) { if (depth > 5) throw new Error(`var() too deep for --${name}`); return resolve(ref[1], depth + 1) }
-    return val
-  }
-  return resolve
 }
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -175,7 +246,7 @@ const norm = (hex) => hex.toLowerCase()
 
 function buildPalette(t) {
   const tree = loadColorTree(t.base)
-  const cssVar = loadCssVars(t.theme)
+  const cssVar = loadTokens(t.theme)
   const p = {}
 
   // base00..07 from the neutral scale
@@ -207,6 +278,44 @@ function toYaml(t, palette, slots) {
   return lines.join('\n') + '\n'
 }
 
+// ── Tinted8 build/emit ──────────────────────────────────────────────────────
+const SOLID = /^#[0-9a-fA-F]{6}$/
+
+function buildTinted8(t) {
+  const cssVar = loadTokens(t.theme)
+  // Resolve a dist token to a solid hex, or null (skip) if missing or alpha.
+  const solid = (name) => {
+    try { const v = cssVar(name); return SOLID.test(v) ? norm(v) : null } catch { return null }
+  }
+  const pick = (map) => {
+    const out = {}
+    for (const [k, v] of Object.entries(map)) { const h = solid(v); if (h) out[k] = h }
+    return out
+  }
+  return { palette: pick(T8_PALETTE), syntax: pick(T8_SYNTAX), ui: pick(T8_UI) }
+}
+
+function toTinted8Yaml(t, name, slug, data) {
+  const L = [
+    'scheme:',
+    '  system: "tinted8"',
+    '  supports:',
+    '    styling-spec: "0.2.0"',
+    `  author: "${AUTHOR}"`,
+    `  name: "${name}"`,
+    `  slug: "${slug}"`,
+    `variant: "${t.variant}"`,
+  ]
+  const section = (label, map, data) => {
+    L.push(`${label}:`)
+    for (const k of Object.keys(map)) if (data[k]) L.push(`  ${k}: "${data[k]}"`)
+  }
+  section('palette', T8_PALETTE, data.palette)
+  section('syntax', T8_SYNTAX, data.syntax)
+  section('ui', T8_UI, data.ui)
+  return L.join('\n') + '\n'
+}
+
 const OUT = (process.argv.find((a) => a.startsWith('--out='))?.split('=')[1]) || ROOT
 // Optional filename/name suffix (e.g. --suffix=-test for A/B comparisons) and
 // theme filter (e.g. --themes=github-dark,github-dark-dimmed).
@@ -229,5 +338,13 @@ for (const t of THEMES) {
     fs.writeFileSync(path.join(dir, `${t.file}${SUFFIX}.yaml`), out)
     written++
   }
+
+  // tinted8: palette<-ANSI, syntax<-prettylights, ui<-functional tokens
+  let t8name = (t.theme === 'light') ? 'Github Light' : t.name
+  if (SUFFIX) t8name += ` (${SUFFIX.replace(/^-/, '')})`
+  const t8dir = path.join(OUT, 'tinted8')
+  fs.mkdirSync(t8dir, { recursive: true })
+  fs.writeFileSync(path.join(t8dir, `${t.file}${SUFFIX}.yaml`), toTinted8Yaml(t, t8name, `${t.file}${SUFFIX}`, buildTinted8(t)))
+  written++
 }
 console.log(`[mode=${MODE}] ${written} files generated under ${OUT}`)
