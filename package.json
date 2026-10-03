@@ -8,7 +8,7 @@
     "generate:github": "node scripts/generate-github-schemes.mjs"
   },
   "devDependencies": {
-    "@primer/primitives": "11.9.0",
+    "@primer/primitives": "11.10.0",
     "json5": "^2.2.3"
   }
 }
