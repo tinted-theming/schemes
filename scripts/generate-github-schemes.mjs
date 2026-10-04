@@ -57,15 +57,17 @@ const MONO_STEPS = {
   dark:  [1, 2, 6, 8, 9, 11, 12, 13],
 }
 
-// Accent slots -> resolved primer token name (key in the docs JSON).
+// Accent slots -> resolved primer token name (key in the docs JSON). Affects
+// only base16/base24 accents; tinted8 has its own maps and ignores this.
 // Two philosophies, selectable with `--mode`:
 //
-//   prettylights  (default) — map GitHub's *code syntax* (prettylights) colors
-//     onto base16's semantic roles, so a base16 highlighter reproduces GitHub's
-//     editor view. This is the original "match GitHub code highlighting" goal.
+//   ansi  (default) — map GitHub's *terminal* (ANSI) palette by hue
+//     (base08=red, etc). Matches GitHub's terminal colors; the editor view
+//     diverges. This is what the committed GitHub base16/base24 schemes ship.
 //
-//   ansi — map GitHub's *terminal* (ANSI) palette by hue (base08=red, etc).
-//     Matches GitHub's terminal colors; the editor view diverges.
+//   prettylights — map GitHub's *code syntax* (prettylights) colors onto
+//     base16's semantic roles, so a base16 highlighter reproduces GitHub's
+//     editor view. The original "match GitHub code highlighting" goal.
 //
 // Neither GitHub palette defines a "class" gold (base0A) — both fall back to
 // ANSI yellow (brown in light, gold in dark) and it's flagged. The base24
@@ -103,7 +105,7 @@ const ACCENT_MODES = {
     ...BRIGHTS,
   },
 }
-const MODE = (process.argv.find((a) => a.startsWith('--mode='))?.split('=')[1]) || 'prettylights'
+const MODE = (process.argv.find((a) => a.startsWith('--mode='))?.split('=')[1]) || 'ansi'
 if (!ACCENT_MODES[MODE]) { console.error(`unknown --mode=${MODE} (use prettylights|ansi)`); process.exit(1) }
 const ACCENT_VARS = ACCENT_MODES[MODE]
 
