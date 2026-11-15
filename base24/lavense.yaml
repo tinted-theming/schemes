@@ -1,0 +1,29 @@
+system: "base24"
+name: "Lavense"
+author: "Madeline Hashcube <hashcube.dev>"
+variant: "dark"
+palette:
+  base00: "#4c143e" # base          | OKHSL(340, 70, 20)
+  base01: "#5b1f4b" # surface0      | OKHSL(340, 65, 25)
+  base02: "#6a2b58" # surface1      | OKHSL(340, 60, 30)
+  base03: "#773764" # overlay0      | OKHSL(340, 55, 35)
+  base04: "#834570" # overlay1      | OKHSL(340, 50, 40)
+  base05: "#bca3b2" # text          | OKHSL(340, 20, 70)
+  base06: "#c4b4be" # light text    | OKHSL(340, 15, 75)
+  base07: "#cdc4c9" # lighter text  | OKHSL(340, 10, 80)
+  base08: "#f49ab6" # red           | OKHSL(  0, 75, 75)
+  base09: "#f3a286" # orange        | OKHSL( 40, 75, 75)
+  base0A: "#deb250" # yellow        | OKHSL( 85, 75, 75)
+  base0B: "#80d16e" # green         | OKHSL(140, 75, 75)
+  base0C: "#54d1bc" # cyan          | OKHSL(180, 75, 75)
+  base0D: "#a3b7f3" # blue          | OKHSL(270, 75, 75)
+  base0E: "#d0a4f0" # purple        | OKHSL(310, 75, 75)
+  base0F: "#ec9ad1" # pink (accent) | OKHSL(340, 75, 75)
+  base10: "#3d0a30" # mantle        | OKHSL(340, 75, 15)
+  base11: "#2b0321" # crust         | OKHSL(340, 80, 10)
+  base12: "#f9c4d3" # light red     | OKHSL(  0, 75, 85)
+  base13: "#f4d084" # light yellow  | OKHSL( 85, 75, 85)
+  base14: "#9fec8e" # light green   | OKHSL(140, 75, 85)
+  base15: "#77edd7" # light cyan    | OKHSL(180, 75, 85)
+  base16: "#c7d4f8" # light blue    | OKHSL(270, 75, 85)
+  base17: "#e2c9f6" # light purple  | OKHSL(310, 75, 85)
