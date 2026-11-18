@@ -19,3 +19,4 @@ palette:
   base0D: "#a3b7f3" # blue          | OKHSL(270, 75, 75)
   base0E: "#d0a4f0" # purple        | OKHSL(310, 75, 75)
   base0F: "#ec9ad1" # pink (accent) | OKHSL(340, 75, 75)
+  
