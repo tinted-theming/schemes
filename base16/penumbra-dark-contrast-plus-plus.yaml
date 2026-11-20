@@ -1,22 +1,22 @@
 system: "base16"
 name: "Penumbra Dark Contrast Plus Plus"
-author: "Zachary Weiss (https://github.com/zacharyweiss)"
+author: "Neal McKee (https://github.com/nealmckee/penumbra)"
+description: "Perceptually uniform colour scheme modelled after natural sunlight and shade (Revised CAM16-UCS + H-K). https://github.com/nealmckee/penumbra"
 variant: "dark"
-description: "A mathematically balanced colour scheme constructed in a perceptually uniform colour space, by Neal McKee. https://github.com/nealmckee/penumbra"
 palette:
-  base00: "#0D0F13" # shade-
-  base01: "#181B1F" # shade
-  base02: "#3E4044" # shade+
-  base03: "#636363" # sky-
-  base04: "#AEAEAE" # sky
-  base05: "#DEDEDE" # sky+
-  base06: "#FFF7ED" # sun
-  base07: "#FFFDFB" # sun+
-  base08: "#F58C81" # red
-  base09: "#E09F47" # orange
-  base0A: "#A9B852" # yellow
-  base0B: "#54C794" # green
-  base0C: "#00C4D7" # cyan
-  base0D: "#6EB2FD" # blue
-  base0E: "#B69CF6" # purple
-  base0F: "#E58CC5" # magenta
+  base00: "#101317"
+  base01: "#1B1E23"
+  base02: "#393C42"
+  base03: "#575B62"
+  base04: "#88898B"
+  base05: "#A9A9A9"
+  base06: "#C2C0BD"
+  base07: "#EEE8DD"
+  base08: "#E17782"
+  base09: "#D88F4C"
+  base0A: "#B4A724"
+  base0B: "#62B06C"
+  base0C: "#00A8A4"
+  base0D: "#009EDB"
+  base0E: "#8A90D4"
+  base0F: "#BE7FC4"
